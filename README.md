@@ -16,9 +16,8 @@
 ## 🛠 Kullandığım Teknolojiler
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=python,html,vscode,git" />
+<img src="https://skillicons.dev/icons?i=python,html" />
 </p>
-
 ---
 
 ## 📂 Projelerim
