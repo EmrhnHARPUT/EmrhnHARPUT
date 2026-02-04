@@ -33,9 +33,3 @@
 > Antrenman, ilerleme ve kullanıcı yönetimi özellikleri içerir
 
 ---
-
-## 📊 GitHub İstatistiklerim
-
-<p align="center">
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=EmrhnHARPUT&theme=tokyonight"/>
-</p>
