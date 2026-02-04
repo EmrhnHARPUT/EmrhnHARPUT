@@ -1,16 +1,20 @@
-## Hi there 👋
+<h1 hizala="merkez">Merhaba 👋, ben Emirhan</h1>
+<h3 align="center">Türkiye'den tutkulu bir frontend geliştiricisi</h3>
 
-<!--
-**EmrhnHARPUT/EmrhnHARPUT** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p hizalama="sol"> <img src="https://komarev.com/ghpvc/?username=emrhnharput&label=Profile%20views&color=0e75b6&style=flat" alt="emrhnharput" /> </p>
 
-Here are some ideas to get you started:
+<p hizalama="sol"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=emrhnharput" alt="emrhnharput" /></a> </p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<h3 hizala="sol">Bana bağlan:</h3>
+<p hizala="sol">
+<a href="https://linkedin.com/in/emirhan harput" hedef="boş"><img hizalama="merkez" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="emirhan harput" yükseklik="30" genişlik="40" /></a>
+</p>
+
+<h3 align="left">Diller ve Araçlar:</h3>
+<p hizala="sol"> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" genişlik="40" yükseklik="40"/> </a> </p>
+
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=emrhnharput&show_icons=true&locale=en&layout=compact" alt="emrhnharput" /></p>
+
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=emrhnharput&show_icons=true&locale=en" alt="emrhnharput" /></p>
+
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=emrhnharput&" alt="emrhnharput" /></p>
