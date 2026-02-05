@@ -1,4 +1,4 @@
-<h1 align="center">👋 Hey there! I'm <span style="color:#FF5733">Emirhan</span></h1>
+<h1 align="center">👋 Hi, I'm <b>Emirhan</b></h1>
 <h3 align="center">Artificial Intelligence Engineering Student</h3>
 
 ---
