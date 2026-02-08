@@ -27,7 +27,7 @@
 ### 🎓 Terminal Tabanlı Öğrenci Bilgi Sistemi
 > Öğrenci, ders ve kayıt işlemlerini yöneten konsol uygulaması
 
-### 🏋️ OnlyFit (Devam Ediyor)
+### 🏋️ OnlyFit
 > Modern arayüzlü fitness takip uygulaması  
 > Antrenman, ilerleme ve kullanıcı yönetimi özellikleri içerir
 
