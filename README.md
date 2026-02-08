@@ -6,10 +6,9 @@
 ## 🚀 Hakkımda
 
 - Artificial Intelligence Engineering student at Trabzon University
-- Yapay zeka ve yazılım teknolojileri alanında kendimi geliştiriyorum
-- Python bilgim temel–orta seviyede
-- Öğrendiklerimi pekiştirmek için terminal tabanlı küçük uygulamalar geliştiriyorum
-- Şu anda gerçek bir fitness takip uygulaması (OnlyFit) üzerinde çalışıyorum
+- Python ile projeler geliştiriyor, algoritmalar ve veri odaklı çözümler üzerinde çalışıyorum 
+- Öğrendiklerimi pekiştirmek için terminal tabanlı küçük uygulamalar tasarlıyorum
+- Terminal ve otomasyon uygulamaları ile pratik deneyim kazanıyorum
 
 ---
 
