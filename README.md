@@ -32,4 +32,10 @@
 > Modern arayüzlü fitness takip uygulaması  
 > Antrenman, ilerleme ve kullanıcı yönetimi özellikleri içerir
 
+### 💰 Terminal Tabanlı Kripto Para Analizi
+> Python ile geliştirilmiş bir terminal uygulaması
+
+- Kripto paraların fiyat, hacim ve yüzde değişimlerini takip eder  
+- Basit analizler ve trend gözlemleri sunar
+
 ---
