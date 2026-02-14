@@ -26,11 +26,7 @@
 
 ### 🎓 Terminal Tabanlı Öğrenci Bilgi Sistemi
 > Öğrenci, ders ve kayıt işlemlerini yöneten konsol uygulaması
-
-### 🏋️ OnlyFit
-> Modern arayüzlü fitness takip uygulaması  
-> Antrenman, ilerleme ve kullanıcı yönetimi özellikleri içerir
-
+ 
 ### 💰 Gerçek Zamanlı Teknik Analiz Sunan Kripto Uygulaması
 >Python kütüphaneleri kullanılarak geliştirilmiş, teknik göstergelere dayalı karar mekanizması içeren arayüzlü bir kripto para analiz dashboard uygulamasıdır.
 
