@@ -31,10 +31,23 @@
 > Modern arayüzlü fitness takip uygulaması  
 > Antrenman, ilerleme ve kullanıcı yönetimi özellikleri içerir
 
-### 💰 Terminal Tabanlı Kripto Para Analizi
-> Python ile geliştirilmiş bir terminal uygulaması
+### 💰 Gerçek Zamanlı Teknik Analiz Sunan Kripto Uygulaması
+>Python kütüphaneleri kullanılarak geliştirilmiş, teknik göstergelere dayalı karar mekanizması içeren arayüzlü bir kripto para analiz dashboard uygulamasıdır.
 
-- Kripto paraların fiyat, hacim ve yüzde değişimlerini takip eder  
-- Basit analizler ve trend gözlemleri sunar
+>Proje; fiyat verilerini işleyerek trend yapısını analiz eder, teknik göstergeleri yorumlar ve bu veriler doğrultusunda sistematik bir sinyal üretir.
+
+🚀 Özellikler
+
+>Gerçek zamanlı fiyat ve hacim verisi
+
+>EMA20, EMA50, EMA200 ile trend analizi
+
+>RSI ile momentum ölçümü
+
+>Trend yönü belirleme 
+
+>Kural tabanlı sinyal üretimi
+
+>Üretilen sinyalin teknik gerekçesini açıklama
 
 ---
