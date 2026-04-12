@@ -5,12 +5,13 @@
 
 ## Hakkımda
 
-- Artificial Intelligence Engineering student at Trabzon University
-- Python ile projeler geliştiriyor, algoritmalar ve veri odaklı çözümler üzerinde çalışıyorum
-- Öğrendiklerimi pekiştirmek için terminal tabanlı küçük uygulamalar tasarlıyorum
-- Terminal ve otomasyon uygulamaları ile pratik deneyim kazanıyorum
+- **Artificial Intelligence Engineering** student at Trabzon University
+- Python ile temel algoritmalar geliştiriyor ve veri odaklı çözümler üzerine çalışmalar yapıyorum
+- Yapay zeka, veri analitiği ve görüntü işleme gibi alanlara ilgi duyuyor, bu konularda pratik yapıyorum
+- Öğrendiklerimi pekiştirmek için terminal tabanlı küçük uygulamalar ve otomasyon araçları tasarlıyorum
+- Yazılım geliştirme süreçlerinde deneyim kazanmaya ve mühendislik temellerini öğrenmeye odaklanıyorum
 
----
+--
 
 ## Kullandığım Teknolojiler
 
