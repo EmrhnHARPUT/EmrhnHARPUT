@@ -1,15 +1,5 @@
-<div align="center">
-
-<!-- SVG animasyonlu isim - GitHub'da kesinlikle çalışır -->
-<img width="600" src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&duration=3000&pause=2000&color=6366F1¢er=true&vCenter=true&repeat=false&width=600&lines=Emirhan+HARPUT"/>
-
-<h3>Artificial Intelligence Engineering Student</h3>
-
-<br/>
-
-<img src="https://komarev.com/ghpvc/?username=EmrhnHARPUT&style=flat-square&color=6366f1&label=profil+görüntüleme"/>
-
-</div>
+<h1 align="center"><b>Emirhan HARPUT</b></h1>
+<h3 align="center">Artificial Intelligence Engineering Student</h3>
 
 ---
 
