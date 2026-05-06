@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://raw.githubusercontent.com/EmrhnHARPUT/EmrhnHARPUT/main/typing.svg?v=2" alt="Emirhan HARPUT"/>
+<img src="https://raw.githubusercontent.com/EmrhnHARPUT/EmrhnHARPUT/main/typing.svg?v=3" alt="Emirhan HARPUT"/>
 </div>
 
 ---
