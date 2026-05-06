@@ -1,9 +1,4 @@
 <div align="center"><img src="https://raw.githubusercontent.com/EmrhnHARPUT/EmrhnHARPUT/main/typing.svg"/></div>
-<p align="center">
-  <a href="https://www.linkedin.com/in/LINKEDIN_KULLANICI_ADIN" target="_blank">
-    <img src="https://skillicons.dev/icons?i=linkedin" width="48" height="48" alt="LinkedIn"/>
-  </a>
-</p>
 
 ## Hakkımda
 
