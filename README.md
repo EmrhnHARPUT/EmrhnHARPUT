@@ -1,11 +1,13 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=36&pause=1000&color=6366F1¢er=true&vCenter=true&width=600&lines=Emirhan+HARPUT" alt="Emirhan HARPUT" />
+<!-- SVG animasyonlu isim - GitHub'da kesinlikle çalışır -->
+<img width="600" src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&duration=3000&pause=2000&color=6366F1¢er=true&vCenter=true&repeat=false&width=600&lines=Emirhan+HARPUT"/>
 
 <h3>Artificial Intelligence Engineering Student</h3>
 
 <br/>
-<img src="https://komarev.com/ghpvc/?username=EmrhnHARPUT&style=flat-square&color=6366f1&label=profil+görüntüleme" />
+
+<img src="https://komarev.com/ghpvc/?username=EmrhnHARPUT&style=flat-square&color=6366f1&label=profil+görüntüleme"/>
 
 </div>
 
@@ -34,8 +36,8 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=EmrhnHARPUT&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=EmrhnHARPUT&theme=tokyonight&hide_border=true" height="165" />
+<img src="https://github-readme-stats.vercel.app/api?username=EmrhnHARPUT&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=EmrhnHARPUT&theme=tokyonight&hide_border=true" height="165"/>
 
 </div>
 
