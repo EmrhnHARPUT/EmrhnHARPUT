@@ -27,8 +27,13 @@
 ## GitHub İstatistikleri
 
 <div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=EmrhnHARPUT&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&rank_icon=github" height="180"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=EmrhnHARPUT&theme=tokyonight&hide_border=true" height="180"/>
+
+<br/><br/>
+
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=EmrhnHARPUT&theme=tokyo-night&hide_border=true&area=true" width="100%"/>
-</div>
 
 </div>
 
