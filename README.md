@@ -1,7 +1,4 @@
-<div align="center">
-<img src="https://raw.githubusercontent.com/EmrhnHARPUT/EmrhnHARPUT/main/typing.svg?v=3" alt="Emirhan HARPUT"/>
-</div>
-
+<img src="https://github.com/EmrhnHARPUT/EmrhnHARPUT/blob/main/typing.svg?raw=true" alt="Emirhan HARPUT"/>
 ---
 
 ## Hakkımda
