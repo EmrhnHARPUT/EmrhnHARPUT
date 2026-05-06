@@ -5,13 +5,12 @@
 
 ## Hakkımda
 
-- **Artificial Intelligence Engineering** student at Trabzon University
-- Python ile temel algoritmalar geliştiriyor ve veri odaklı çözümler üzerine çalışmalar yapıyorum
-- Yapay zeka, veri analitiği ve görüntü işleme gibi alanlara ilgi duyuyor, bu konularda pratik yapıyorum
-- Öğrendiklerimi pekiştirmek için terminal tabanlı küçük uygulamalar ve otomasyon araçları tasarlıyorum
-- Yazılım geliştirme süreçlerinde deneyim kazanmaya ve mühendislik temellerini öğrenmeye odaklanıyorum
-
---
+- **Artificial Intelligence Engineering** student at Trabzon University.
+- **İMEJE Mühendislik Topluluğu** kurucu ortağı ve ekibin **Veri Analisti** olarak aktif rol alıyorum.
+- Python kullanarak veri analitiği, model eğitimi ve veri işleme süreçleri üzerine yoğunlaşıyorum.
+- Yapay zeka ve görüntü işleme alanlarında projeler geliştiriyor, teorik bilgilerimi hackathon gibi rekabetçi platformlarda pratiğe döküyorum.
+- Öğrendiklerimi pekiştirmek için terminal tabanlı uygulamalar, otomasyon araçları ve veri odaklı çözümler tasarlıyorum.
+- Özellikle **askeri teknolojiler** ve savunma sanayii için otomasyon sistemleri ve yapay zeka modelleri geliştirme vizyonuyla kendimi hazırlıyorum.
 
 ## Kullandığım Teknolojiler
 
