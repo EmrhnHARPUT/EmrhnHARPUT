@@ -1,5 +1,18 @@
-<h1 align="center"><b>Emirhan HARPUT</b></h1>
-<h3 align="center">Artificial Intelligence Engineering Student</h3>
+<div align="center">
+
+<svg width="600" height="60" viewBox="0 0 600 60" xmlns="http://www.w3.org/2000/svg">
+  <text x="300" y="42" font-family="monospace" font-size="32" font-weight="bold" fill="#6366f1" text-anchor="middle">
+    Emirhan HARPUT
+    <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.3;1" dur="2.5s" fill="freeze"/>
+  </text>
+  <rect x="0" y="0" width="600" height="60" fill="#161b22">
+    <animate attributeName="width" values="600;600;0" keyTimes="0;0.05;1" dur="2.5s" fill="freeze"/>
+  </rect>
+</svg>
+
+<h3>Artificial Intelligence Engineering Student</h3>
+
+</div>
 
 ---
 
