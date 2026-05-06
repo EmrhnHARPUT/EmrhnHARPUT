@@ -1,71 +1,99 @@
+<!-- Animasyonlu isim başlığı -->
 <div align="center">
 
-<h1>Emirhan Harput</h1>
-<h4>Artificial Intelligence Engineering Student</h4>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=36&pause=1000&color=6366F1¢er=true&vCenter=true&width=600&lines=Emirhan+HARPUT" alt="Emirhan HARPUT" />
 
+<h3>Artificial Intelligence Engineering Student</h3>
 
 <br/>
-
-<img src="https://github-readme-stats.vercel.app/api?username=KULLANICI_ADIN&show_icons=true&theme=default&hide_border=true&count_private=true"
-  height="160" alt="GitHub Stats" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=KULLANICI_ADIN&theme=default&hide_border=true"
-  height="160" alt="Streak" />
+<img src="https://komarev.com/ghpvc/?username=KULLANICI_ADIN&style=flat-square&color=6366f1&label=profil+görüntüleme"/>
 
 </div>
 
 ---
 
-## 🧑‍💻 Hakkımda
+## Hakkımda
 
-- **Trabzon Üniversitesi Yapay Zeka Mühendisliği** öğrencisiyim.
-- Asıl odağım: **veri analitiği, model eğitimi ve veri işleme** süreçleri.
-- **İMEJE Mühendislik Topluluğu** kurucu ortağı & Veri Analisti.
-- Hackathon ve rekabetçi platformlarda veri odaklı çözümler geliştiriyorum.
-- Gelecek vizyonum: **askeri teknolojiler ve savunma sanayii** için otomasyon ve YZ modelleri.
+<img align="right" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="180"/>
+
+* **Trabzon Üniversitesi Yapay Zeka Mühendisliği** öğrencisiyim.
+* Yapay zekanın tüm alt dallarına ilgi duymakla birlikte, asıl odağımı **veri analitiği, model eğitimi ve veri işleme** süreçleri üzerine yoğunlaştırıyorum.
+* Yazılım dünyasındaki teorik bilgilerimi pratikle birleştirmek adına, kurucu ortağı olduğum **İMEJE Mühendislik Topluluğu**'nda aktif olarak rol alıyorum.
+* Ekibimizin **Veri Analisti** olarak, veri odaklı çözümler geliştiriyor ve takım arkadaşlarımla birlikte hackathon gibi rekabetçi platformlarda kendimizi geliştirme motivasyonuyla projeler üretiyoruz.
+* Gelecek vizyonumu, özellikle **askeri teknolojiler ve savunma sanayii** için otomasyon sistemleri ile yapay zeka modelleri tasarlamak üzerine kuruyorum.
+* Karmaşık verilerden anlamlı sonuçlar çıkararak bunları stratejik otomasyon süreçlerine dönüştürmek, profesyonel kariyerimdeki en temel hedefimdir.
 
 ---
 
-## 🛠️ Kullandığım Teknolojiler
+## Kullandığım Teknolojiler
+
+<p align="center">
+<img src="https://skillicons.dev/icons?i=python,html" />
+</p>
+
+---
+
+## 📊 GitHub İstatistikleri
 
 <div align="center">
-<img src="https://skillicons.dev/icons?i=python,html" />
+
+<img src="https://github-readme-stats.vercel.app/api?username=KULLANICI_ADIN&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=KULLANICI_ADIN&theme=tokyonight&hide_border=true" height="165"/>
+
 </div>
 
 ---
 
-## 📁 Projeler
+## Projelerim
 
-<table>
-<tr>
-<td width="50%">
+<h3>DataSeek AI: Hibrit Veri, Makale ve Kod Arama Motoru</h3>
 
-<h3>🔍 DataSeek AI</h3>
-<p>Hibrit veri, makale ve kod arama motoru. Kaggle, HuggingFace, ArXiv ve GitHub'ı eş zamanlı tarar; güvenlik derecelendirmesi ve AI tabanlı alaka filtresi sunar.</p>
-![Python](https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=white)
+Python tabanlı, veri bilimi projeleri için gerekli kaynakları (Dataset, Paper, Repo) farklı platformlardan tek merkezde toplayan ve güvenlik analizi yapan bir tarama aracıdır. Popüler API'ların yanı sıra genel web kaynaklarını da tarayarak, kullanıcıya hem güvenli kaynakları hem de doğrudan erişim linklerini bir arada sunar.
 
-</td>
-<td width="50%">
+**Özellikler**
 
-<h3>📊 Kripto Teknik Analiz</h3>
-<p>Gerçek zamanlı fiyat verisi, EMA/RSI tabanlı trend analizi ve kural tabanlı sinyal üretimi sunan kripto analiz dashboard'u.</p>
-![Python](https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=white)
+- **Eş Zamanlı Kaynak Taraması:** Veri setleri (Kaggle, HF), akademik makaleler (ArXiv) ve kod depolarını (GitHub) aynı anda sorgulama.
+- **Güvenlik Derecelendirmesi:** Kaynakları SSL sertifikası ve domain listesine göre puanlayarak "Doğrulanmış" veya "Doğrulanmamış" olarak etiketleme.
+- **Alaka Düzeyi Filtresi:** AI tabanlı skorlama sistemiyle, arama konusuyla düşük etkileşimli sonuçları otomatik olarak eleme.
+- **Entegre Erişim ve Link Yönetimi:** Bulunan tüm kaynakları aktif erişim linkleriyle birlikte sunarak, kullanıcıyı doğrudan ilgili veri/makale sayfasına yönlendirme.
 
-</td>
-</tr>
-<tr>
-<td width="50%">
+![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=white)
 
-<h3>🎓 Öğrenci Bilgi Sistemi</h3>
-<p>Öğrenci, ders ve kayıt işlemlerini yöneten terminal tabanlı konsol uygulaması.</p>
-![Python](https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=white)
+---
 
-</td>
-<td width="50%">
+<h3>Gerçek Zamanlı Teknik Analiz Sunan Kripto Uygulaması</h3>
 
-<h3>🤖 Öğrenen Chatbot</h3>
-<p>Sorulan soruları kaydederek zamanla kendini geliştiren, terminal tabanlı basit chatbot uygulaması.</p>
-![Python](https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=white)
+Python kütüphaneleri kullanılarak geliştirilmiş, teknik göstergelere dayalı karar mekanizması içeren arayüzlü bir kripto para analiz dashboard uygulamasıdır. Fiyat verilerini işleyerek trend yapısını analiz eder, teknik göstergeleri yorumlar ve bu veriler doğrultusunda sistematik bir sinyal üretir.
 
-</td>
-</tr>
-</table>
+**Özellikler**
+
+- Gerçek zamanlı fiyat ve hacim verisi
+- EMA20, EMA50, EMA200 ile trend analizi
+- RSI ile momentum ölçümü
+- Trend yönü belirleme
+- Kural tabanlı sinyal üretimi
+- Üretilen sinyalin teknik gerekçesini açıklama
+
+![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=white)
+
+---
+
+<h3>Terminal Tabanlı Öğrenci Bilgi Sistemi</h3>
+
+Öğrenci, ders ve kayıt işlemlerini yöneten konsol uygulaması.
+
+![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=white)
+
+---
+
+<h3>Öğrenen Terminal Chatbot</h3>
+
+Sorulan soruları kaydederek zamanla kendini geliştiren basit bir chatbot uygulaması.
+
+![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=white)
+
+---
+
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=6366f1&height=80§ion=footer"/>
+</div>
