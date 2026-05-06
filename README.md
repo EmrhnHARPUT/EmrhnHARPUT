@@ -1,12 +1,10 @@
-<!-- Animasyonlu isim başlığı -->
 <div align="center">
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=36&pause=1000&color=6366F1¢er=true&vCenter=true&width=600&lines=Emirhan+HARPUT" alt="Emirhan HARPUT" />
 
 <h3>Artificial Intelligence Engineering Student</h3>
 
-<br/>
-<img src="https://komarev.com/ghpvc/?username=KULLANICI_ADIN&style=flat-square&color=6366f1&label=profil+görüntüleme"/>
+<img src="https://komarev.com/ghpvc/?username=KULLANICI_ADIN&style=flat-square&color=6366f1&label=profil+görüntüleme" />
 
 </div>
 
@@ -14,7 +12,7 @@
 
 ## Hakkımda
 
-<img align="right" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="180"/>
+<img align="right" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="180" />
 
 * **Trabzon Üniversitesi Yapay Zeka Mühendisliği** öğrencisiyim.
 * Yapay zekanın tüm alt dallarına ilgi duymakla birlikte, asıl odağımı **veri analitiği, model eğitimi ve veri işleme** süreçleri üzerine yoğunlaştırıyorum.
@@ -37,8 +35,8 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=KULLANICI_ADIN&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=KULLANICI_ADIN&theme=tokyonight&hide_border=true" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api?username=KULLANICI_ADIN&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=KULLANICI_ADIN&theme=tokyonight&hide_border=true" height="165" />
 
 </div>
 
@@ -57,8 +55,6 @@ Python tabanlı, veri bilimi projeleri için gerekli kaynakları (Dataset, Paper
 - **Alaka Düzeyi Filtresi:** AI tabanlı skorlama sistemiyle, arama konusuyla düşük etkileşimli sonuçları otomatik olarak eleme.
 - **Entegre Erişim ve Link Yönetimi:** Bulunan tüm kaynakları aktif erişim linkleriyle birlikte sunarak, kullanıcıyı doğrudan ilgili veri/makale sayfasına yönlendirme.
 
-![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=white)
-
 ---
 
 <h3>Gerçek Zamanlı Teknik Analiz Sunan Kripto Uygulaması</h3>
@@ -74,26 +70,14 @@ Python kütüphaneleri kullanılarak geliştirilmiş, teknik göstergelere dayal
 - Kural tabanlı sinyal üretimi
 - Üretilen sinyalin teknik gerekçesini açıklama
 
-![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=white)
-
 ---
 
 <h3>Terminal Tabanlı Öğrenci Bilgi Sistemi</h3>
 
 Öğrenci, ders ve kayıt işlemlerini yöneten konsol uygulaması.
 
-![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=white)
-
 ---
 
 <h3>Öğrenen Terminal Chatbot</h3>
 
 Sorulan soruları kaydederek zamanla kendini geliştiren basit bir chatbot uygulaması.
-
-![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=white)
-
----
-
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=6366f1&height=80§ion=footer"/>
-</div>
