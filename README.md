@@ -1,7 +1,5 @@
 <div align="center">
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=3000&pause=1000&color=6366F1¢er=true&vCenter=true&width=600&lines=Emirhan+HARPUT;Artificial+Intelligence+Engineer;Data+%7C+ML+%7C+Automation" alt="Typing SVG" />
-
+<img src="https://raw.githubusercontent.com/EmrhnHARPUT/EmrhnHARPUT/main/typing.svg" alt="Emirhan HARPUT"/>
 </div>
 
 ---
