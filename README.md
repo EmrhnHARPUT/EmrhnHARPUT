@@ -1,6 +1,4 @@
-<div align="center">
-<img src="https://raw.githubusercontent.com/EmrhnHARPUT/EmrhnHARPUT/main/typing.svg" alt="Emirhan HARPUT"/>
-</div>
+<div align="center"><img src="https://raw.githubusercontent.com/EmrhnHARPUT/EmrhnHARPUT/main/typing.svg"/></div>
 
 ---
 
