@@ -1,5 +1,11 @@
 <div align="center"><img src="https://raw.githubusercontent.com/EmrhnHARPUT/EmrhnHARPUT/main/typing.svg"/></div>
+<div align="center">
 
+<a href="https://www.linkedin.com/in/LINKEDIN_KULLANICI_ADIN" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-Emirhan%20HARPUT-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+</a>
+
+</div>
 ---
 
 ## Hakkımda
@@ -21,7 +27,7 @@
 
 ---
 
-## 📊 GitHub İstatistikleri
+## GitHub İstatistikleri
 
 <div align="center">
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=EmrhnHARPUT&theme=tokyo-night&hide_border=true&area=true" width="100%"/>
