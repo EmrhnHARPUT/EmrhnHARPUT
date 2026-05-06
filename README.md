@@ -4,15 +4,14 @@
 
 <h3>Artificial Intelligence Engineering Student</h3>
 
-<img src="https://komarev.com/ghpvc/?username=KULLANICI_ADIN&style=flat-square&color=6366f1&label=profil+görüntüleme" />
+<br/>
+<img src="https://komarev.com/ghpvc/?username=EmrhnHARPUT&style=flat-square&color=6366f1&label=profil+görüntüleme" />
 
 </div>
 
 ---
 
 ## Hakkımda
-
-<img align="right" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="180" />
 
 * **Trabzon Üniversitesi Yapay Zeka Mühendisliği** öğrencisiyim.
 * Yapay zekanın tüm alt dallarına ilgi duymakla birlikte, asıl odağımı **veri analitiği, model eğitimi ve veri işleme** süreçleri üzerine yoğunlaştırıyorum.
@@ -35,8 +34,8 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=KULLANICI_ADIN&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=KULLANICI_ADIN&theme=tokyonight&hide_border=true" height="165" />
+<img src="https://github-readme-stats.vercel.app/api?username=EmrhnHARPUT&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=EmrhnHARPUT&theme=tokyonight&hide_border=true" height="165" />
 
 </div>
 
