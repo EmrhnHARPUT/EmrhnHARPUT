@@ -1,4 +1,8 @@
-<div align="center"><img src="https://raw.githubusercontent.com/EmrhnHARPUT/EmrhnHARPUT/main/typing.svg"/></div>
+<div align="center">
+<img src="https://raw.githubusercontent.com/EmrhnHARPUT/EmrhnHARPUT/main/typing.svg" alt="Emirhan HARPUT"/>
+</div>
+
+---
 
 ## Hakkımda
 
@@ -19,7 +23,7 @@
 
 ---
 
-## GitHub İstatistikleri
+## 📊 GitHub İstatistikleri
 
 <div align="center">
 
