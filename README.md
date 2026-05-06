@@ -1,5 +1,4 @@
-<img src="https://github.com/EmrhnHARPUT/EmrhnHARPUT/blob/main/typing.svg?raw=true" alt="Emirhan HARPUT"/>
----
+<img src="https://raw.githubusercontent.com/EmrhnHARPUT/EmrhnHARPUT/main/typing2.svg" alt="Emirhan HARPUT"/>
 
 ## Hakkımda
 
