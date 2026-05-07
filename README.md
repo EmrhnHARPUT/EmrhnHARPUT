@@ -1,4 +1,7 @@
 <img src="https://raw.githubusercontent.com/EmrhnHARPUT/EmrhnHARPUT/main/typing_final.svg" alt="Emirhan HARPUT"/>
+
+---
+
 ## Hakkımda
 
 * **Trabzon Üniversitesi Yapay Zeka Mühendisliği** öğrencisiyim.
