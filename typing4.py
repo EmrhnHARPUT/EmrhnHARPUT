@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 100" preserveAspectRatio="xMidYMid meet" style="width:100%;height:auto;">
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 800 100">
 <rect width="800" height="100" fill="#0d1117"/>
 <defs>
   <style>
