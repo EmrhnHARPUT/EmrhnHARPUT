@@ -19,7 +19,7 @@
 
 ---
 
-## 📊 GitHub İstatistikleri
+## GitHub İstatistikleri
 
 <div align="center">
 
