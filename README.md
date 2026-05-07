@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://raw.githubusercontent.com/EmrhnHARPUT/EmrhnHARPUT/main/typing3.svg" width="100%" alt="Emirhan HARPUT"/>
+<img src="https://raw.githubusercontent.com/EmrhnHARPUT/EmrhnHARPUT/main/typing4.svg" width="100%" alt="Emirhan HARPUT"/>
 </div>
 
 ## Hakkımda
