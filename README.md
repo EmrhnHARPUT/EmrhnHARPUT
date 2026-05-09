@@ -26,7 +26,7 @@
 <div align="center">
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=EmrhnHARPUT&theme=tokyonight&hide_border=true" height="180"/>
 <br/><br/>
-<img src="https://github-profile-trophy.vercel.app/?username=EmrhnHARPUT&theme=tokyonight&no-frame=true&row=1&column=7" width="100%"/>
+<img src="https://github-profile-trophy.vercel.app/?username=EmrhnHARPUT&theme=tokyonight&no-frame=true&row=1&column=2&title=Commits,Repositories" width="100%"/>
 <br/><br/>
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=EmrhnHARPUT&theme=tokyo-night&hide_border=true&area=true" width="100%"/>
 </div>
