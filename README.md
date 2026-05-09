@@ -24,9 +24,8 @@
 ## GitHub İstatistikleri
 
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=EmrhnHARPUT&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&rank_icon=github&cache_seconds=86400" height="180"/>
-<img src="https://streak-stats.demolab.com/?user=EmrhnHARPUT&theme=tokyonight&hide_border=true&cache_seconds=86400" height="180"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=EmrhnHARPUT&layout=compact&theme=tokyonight&hide_border=true&langs_count=6&cache_seconds=86400" height="180"/>
+<img src="https://github-readme-stats.vercel.app/api?username=EmrhnHARPUT&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&rank_icon=github" height="180"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=EmrhnHARPUT&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" height="180"/>
 <br/><br/>
 <img src="https://github-profile-trophy.vercel.app/?username=EmrhnHARPUT&theme=tokyonight&no-frame=true&row=1&column=7" width="100%"/>
 <br/><br/>
