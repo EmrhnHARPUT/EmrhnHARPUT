@@ -46,19 +46,11 @@
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=EmrhnHARPUT&theme=tokyo-night&hide_border=true&area=true" width="100%"/>
 
-<br/><br/>
-
-<img src="https://raw.githubusercontent.com/EmrhnHARPUT/EmrhnHARPUT/output/github-contribution-grid-snake.svg" width="100%"/>
-
 </div>
 
 ---
 
-## Projeler
-
-### DataSeek AI
-> Veri seti, makale ve kod kaynaklarını tek merkezde toplayıp güvenlik analizi yapan hibrit arama motoru.
-> Python ile geliştirilmiştir; kaynakları SSL ve domain güvenlik puanına göre "Doğrulanmış/Doğrulanmamış" olarak etiketler.
+## Projelerim
 
 ### Kripto Teknik Analiz Uygulaması
 > Fiyat verilerini analiz ederek teknik göstergelere dayalı sinyal üreten gerçek zamanlı kripto dashboard'u.
@@ -72,13 +64,17 @@
 > Sorulan soruları kaydederek zamanla kendini geliştiren basit chatbot uygulaması.
 > Kullanıcı etkileşimlerinden öğrenerek zamanla daha isabetli cevaplar üretir.
 
+### DataSeek AI
+> Veri seti, makale ve kod kaynaklarını tek merkezde toplayıp güvenlik analizi yapan hibrit arama motoru.
+> Python ile geliştirilmiştir; kaynakları SSL ve domain güvenlik puanına göre "Doğrulanmış/Doğrulanmamış" olarak etiketler.
+
 ### Türkiye İllerine Ait Hava Durumu Veri Analizi ve Tahmini
 > Türkiye'nin 81 iline ait 70 yıllık hava durumu verilerini analiz edip makine öğrenmesiyle iklim tahminleri üreten proje.
 > Open-Meteo Archive API'sinden çekilen verilerle iklim değişikliği trendlerini ve bölgesel anomalileri inceler.
 
 ### VoxFleet AI
 > LLM ve VLM teknolojileriyle endüstriyel otonom robot filolarını doğal dil komutlarıyla yöneten ve anomali tespiti yapan yapay zeka sistemi.
-> Öngörücü bakım özelliğiyle arıza riskini yüksek doğrulukta tespit etmeyi hedefler.
+> Öngörücü bakım özelliğiyle arızayı yüksek doğrulukta tespit etmeyi hedefler.
 
 ### IMEJE Health — Klinik Karar Destek Sistemi
 > MRI görüntü modeli ile klinik biyokimya modelini birleştirip if-else tabanlı filtre katmanıyla otomatik tanı raporu üreten, tamamen lokal çalışan karar destek sistemi.
