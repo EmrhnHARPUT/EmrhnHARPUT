@@ -35,25 +35,18 @@
 
 ## Projelerim
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>DataSeek AI</h3>
-      Veri seti, makale ve kod kaynaklarını tek merkezde toplayıp güvenlik analizi yapan hibrit arama motoru.
-    </td>
-    <td width="50%" valign="top">
-      <h3>Kripto Teknik Analiz Uygulaması</h3>
-      Fiyat verilerini analiz ederek teknik göstergelere dayalı sinyal üreten gerçek zamanlı kripto dashboard'u.
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>Terminal Tabanlı Öğrenci Bilgi Sistemi</h3>
-      Öğrenci, ders ve kayıt işlemlerini yöneten konsol uygulaması.
-    </td>
-    <td width="50%" valign="top">
-      <h3>Öğrenen Terminal Chatbot</h3>
-      Sorulan soruları kaydederek zamanla kendini geliştiren basit chatbot uygulaması.
-    </td>
-  </tr>
-</table>
+### DataSeek AI
+---
+Veri seti, makale ve kod kaynaklarını tek merkezde toplayıp güvenlik analizi yapan hibrit arama motoru.
+
+### Kripto Teknik Analiz Uygulaması
+---
+Fiyat verilerini analiz ederek teknik göstergelere dayalı sinyal üreten gerçek zamanlı kripto dashboard'u.
+
+### Terminal Tabanlı Öğrenci Bilgi Sistemi
+---
+Öğrenci, ders ve kayıt işlemlerini yöneten konsol uygulaması.
+
+### Öğrenen Terminal Chatbot
+---
+Sorulan soruları kaydederek zamanla kendini geliştiren basit chatbot uygulaması.
