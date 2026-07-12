@@ -69,7 +69,7 @@
 > Türkiye'nin 81 iline ait 70 yıllık hava durumu verilerini analiz edip makine öğrenmesiyle iklim tahminleri üreten proje.
 > Open-Meteo Archive API'sinden çekilen verilerle iklim değişikliği trendlerini ve bölgesel anomalileri inceler.
 
-> ### DataSeek AI
+### DataSeek AI
 > Veri seti, makale ve kod kaynaklarını tek merkezde toplayıp güvenlik analizi yapan hibrit arama motoru.
 > Python ile geliştirilmiştir; kaynakları SSL ve domain güvenlik puanına göre "Doğrulanmış/Doğrulanmamış" olarak etiketler.
 
