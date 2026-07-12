@@ -78,7 +78,7 @@
 
 ### VoxFleet AI
 > LLM ve VLM teknolojileriyle endüstriyel otonom robot filolarını doğal dil komutlarıyla yöneten ve anomali tespiti yapan yapay zeka sistemi.
-> Öngörücü bakım özelliğiyle arıza riskini %94 doğrulukla 7 gün önceden tahmin eder.
+> Öngörücü bakım özelliğiyle arıza riskini yüksek doğrulukta tespit etmeyi hedefler.
 
 ### IMEJE Health — Klinik Karar Destek Sistemi
 > MRI görüntü modeli ile klinik biyokimya modelini birleştirip if-else tabanlı filtre katmanıyla otomatik tanı raporu üreten, tamamen lokal çalışan karar destek sistemi.
