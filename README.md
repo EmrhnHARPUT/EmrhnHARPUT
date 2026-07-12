@@ -54,7 +54,7 @@
 
 ---
 
-## Projelerim
+## Projeler
 
 ### DataSeek AI
 > Veri seti, makale ve kod kaynaklarını tek merkezde toplayıp güvenlik analizi yapan hibrit arama motoru.
