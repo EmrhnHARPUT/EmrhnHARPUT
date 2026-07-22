@@ -40,11 +40,6 @@
 
 <br/><br/>
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=EmrhnHARPUT&theme=github_dark" width="49%"/>
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=EmrhnHARPUT&theme=github_dark&utcOffset=3" width="49%"/>
-
-<br/><br/>
-
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=EmrhnHARPUT&hide_border=true&bg_color=0D1117&color=F97316&line=F97316&point=FFFFFF&area=true&area_color=F97316" width="100%"/>
 
 </div>
