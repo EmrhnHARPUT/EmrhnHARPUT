@@ -28,13 +28,13 @@
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=EmrhnHARPUT&label=Profil+Ziyaretçisi&color=F97316&style=for-the-badge" alt="Profil Ziyaretçisi" />
   <br/><br/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=EmrhnHARPUT&hide_border=true&background=0D1117&ring=F97316&fire=F97316&currStreakLabel=F97316&sideLabels=C9D1D9&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=6B7280" width="85%" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=EmrhnHARPUT&hide_border=true&background=0D1117&ring=F97316&fire=F97316&currStreakLabel=F97316&sideLabels=C9D1D9&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=6B7280" width="50%" alt="GitHub Streak" />
   <br/><br/>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=EmrhnHARPUT&bg_color=0D1117&color=F97316&line=F97316&point=FFFFFF&area=true&area_color=F97316&hide_border=true" width="95%" alt="Aktivite Grafiği" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=EmrhnHARPUT&bg_color=0D1117&color=F97316&line=F97316&point=FFFFFF&area=true&area_color=F97316&hide_border=true" width="90%" alt="Aktivite Grafiği" />
   <br/><br/>
-  <img src="https://github-profile-trophy.vercel.app/?username=EmrhnHARPUT&theme=blackOrange&no-frame=true&row=1&column=4&titles=Commits,Repositories,Followers,PullRequest" width="90%" alt="GitHub Kupaları" />
+  <img src="https://github-profile-trophy.vercel.app/?username=EmrhnHARPUT&theme=blackOrange&no-frame=true&column=4&margin-w=15&titles=Commits,Repositories,Followers,PullRequest" height="110px" alt="GitHub Kupaları" />
   <br/><br/>
-  <img src="https://github-readme-stats.vercel.app/api?username=EmrhnHARPUT&show_icons=true&bg_color=0D1117&title_color=F97316&icon_color=F97316&text_color=C9D1D9&hide_border=true" width="60%" alt="Genel İstatistikler" />
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=EmrhnHARPUT&show_icons=true&bg_color=0D1117&title_color=F97316&icon_color=F97316&text_color=C9D1D9&hide_border=true" width="50%" alt="Genel İstatistikler" />
 </div>
 
 ---
