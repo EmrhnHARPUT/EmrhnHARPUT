@@ -32,12 +32,6 @@
   <br/><br/>
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=EmrhnHARPUT&bg_color=0D1117&color=F97316&line=F97316&point=FFFFFF&area=true&area_color=F97316&hide_border=true" width="90%" alt="Aktivite Grafiği" />
   <br/><br/>
-  <p align="center">
-    <img src="https://img.shields.io/badge/Commits-400%2B-F97316?style=for-the-badge&logo=git&logoColor=white" alt="Commits" />
-    <img src="https://img.shields.io/badge/Repositories-Public-F97316?style=for-the-badge&logo=github&logoColor=white" alt="Repositories" />
-    <img src="https://img.shields.io/badge/Followers-Community-F97316?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Followers" />
-    <img src="https://img.shields.io/badge/Pull_Requests-Merged-F97316?style=for-the-badge&logo=githubactions&logoColor=white" alt="Pull Requests" />
-  </p>
 </div>
 
 ---
