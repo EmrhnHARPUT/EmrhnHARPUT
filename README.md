@@ -31,8 +31,8 @@
 
 <br/><br/>
 
-<img src="https://github-readme-stats.vercel.app/api?username=EmrhnHARPUT&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="180"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=EmrhnHARPUT&layout=compact&theme=tokyonight&hide_border=true" height="180"/>
+<img src="https://github-readme-stats-fast.vercel.app/api?username=EmrhnHARPUT&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="180"/>
+<img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=EmrhnHARPUT&layout=compact&theme=tokyonight&hide_border=true" height="180"/>
 
 <br/><br/>
 
@@ -40,7 +40,7 @@
 
 <br/><br/>
 
-<img src="https://github-profile-trophy.vercel.app/?username=EmrhnHARPUT&theme=tokyonight&no-frame=true&row=1&column=2&title=Commits,Repositories" width="40%"/>
+<img src="https://github-profile-trophy-fork-two.vercel.app/?username=EmrhnHARPUT&theme=tokyonight&no-frame=true&row=1&column=2&title=Commits,Repositories" width="40%"/>
 
 <br/><br/>
 
