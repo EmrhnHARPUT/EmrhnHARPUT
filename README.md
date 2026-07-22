@@ -31,16 +31,17 @@
 
 <br/><br/>
 
-<img src="https://github-readme-stats-fast.vercel.app/api?username=EmrhnHARPUT&show_icons=true&hide_border=true&bg_color=0D1117&title_color=F97316&icon_color=F97316&text_color=C9D1D9&border_radius=12&count_private=true" width="49%"/>
-<img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=EmrhnHARPUT&layout=compact&hide_border=true&bg_color=0D1117&title_color=F97316&text_color=C9D1D9&border_radius=12" width="49%"/>
-
-<br/><br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=EmrhnHARPUT&hide_border=true&background=0D1117&ring=F97316&fire=F97316&currStreakLabel=F97316&sideLabels=C9D1D9&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=6B7280&border_radius=12" width="100%"/>
+<img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=EmrhnHARPUT&layout=donut&hide_border=true&bg_color=0D1117&title_color=F97316&text_color=C9D1D9&border_radius=12" width="45%"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=EmrhnHARPUT&hide_border=true&background=0D1117&ring=F97316&fire=F97316&currStreakLabel=F97316&sideLabels=C9D1D9&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=6B7280&border_radius=12" width="45%"/>
 
 <br/><br/>
 
 <img src="https://github-profile-trophy-fork-two.vercel.app/?username=EmrhnHARPUT&theme=blackOrange&no-frame=true&row=1&column=6&title=Commits,Repositories,Stars,Followers,PullRequest,Issue&margin-w=8" width="100%"/>
+
+<br/><br/>
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=EmrhnHARPUT&theme=github_dark" width="49%"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=EmrhnHARPUT&theme=github_dark&utcOffset=3" width="49%"/>
 
 <br/><br/>
 
