@@ -25,13 +25,15 @@
 
 ## GitHub İstatistikleri
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=EmrhnHARPUT&label=Profil+Ziyareti&color=F97316&style=flat-square" alt="Profil Ziyaretçisi" />
-</p>
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=EmrhnHARPUT&hide_border=true&background=0D1117&ring=F97316&fire=F97316&currStreakLabel=F97316&sideLabels=C9D1D9&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=6B7280" height="160px" alt="GitHub Streak" />
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=EmrhnHARPUT&bg_color=0D1117&color=F97316&line=F97316&point=FFFFFF&hide_border=true" height="160px" alt="Aktivite Grafiği" />
-</p>
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=EmrhnHARPUT&label=Profil+Ziyaretçisi&color=F97316&style=for-the-badge" alt="Profil Ziyaretçisi" />
+  <br/><br/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=EmrhnHARPUT&hide_border=true&background=0D1117&ring=F97316&fire=F97316&currStreakLabel=F97316&sideLabels=C9D1D9&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=6B7280" width="85%" alt="GitHub Streak" />
+  <br/><br/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=EmrhnHARPUT&bg_color=0D1117&color=F97316&line=F97316&point=FFFFFF&area=true&area_color=F97316&hide_border=true" width="95%" alt="Aktivite Grafiği" />
+  <br/><br/>
+  <img src="https://github-profile-trophy-fork-two.vercel.app/?username=EmrhnHARPUT&theme=blackOrange&no-frame=true&row=1&column=4&titles=Commits,Repositories,Followers,PullRequest" width="95%" alt="GitHub Kupaları" />
+</div>
 
 ---
 
