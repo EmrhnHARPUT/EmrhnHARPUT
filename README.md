@@ -32,7 +32,9 @@
   <br/><br/>
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=EmrhnHARPUT&bg_color=0D1117&color=F97316&line=F97316&point=FFFFFF&area=true&area_color=F97316&hide_border=true" width="95%" alt="Aktivite Grafiği" />
   <br/><br/>
-  <img src="https://github-profile-trophy-fork-two.vercel.app/?username=EmrhnHARPUT&theme=blackOrange&no-frame=true&row=1&column=4&titles=Commits,Repositories,Followers,PullRequest" width="95%" alt="GitHub Kupaları" />
+  <img src="https://github-profile-trophy.vercel.app/?username=EmrhnHARPUT&theme=blackOrange&no-frame=true&row=1&column=4&titles=Commits,Repositories,Followers,PullRequest" width="90%" alt="GitHub Kupaları" />
+  <br/><br/>
+  <img src="https://github-readme-stats.vercel.app/api?username=EmrhnHARPUT&show_icons=true&bg_color=0D1117&title_color=F97316&icon_color=F97316&text_color=C9D1D9&hide_border=true" width="60%" alt="Genel İstatistikler" />
 </div>
 
 ---
