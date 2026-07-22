@@ -27,27 +27,24 @@
 
 <div align="center">
 
-<img src="https://komarev.com/ghpvc/?username=EmrhnHARPUT&label=Profil+Görüntülenme&color=7c3aed&style=flat" />
+<img src="https://komarev.com/ghpvc/?username=EmrhnHARPUT&label=Profil+Görüntülenme&color=F97316&style=flat" />
 
 <br/><br/>
 
-<img src="https://github-readme-stats-fast.vercel.app/api?username=EmrhnHARPUT&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&border_radius=10" width="100%"/>
+<img src="https://github-readme-stats-fast.vercel.app/api?username=EmrhnHARPUT&show_icons=true&hide_border=true&bg_color=0D1117&title_color=F97316&icon_color=F97316&text_color=C9D1D9&border_radius=12&count_private=true" width="49%"/>
+<img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=EmrhnHARPUT&layout=compact&hide_border=true&bg_color=0D1117&title_color=F97316&text_color=C9D1D9&border_radius=12" width="49%"/>
 
 <br/><br/>
 
-<img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=EmrhnHARPUT&layout=compact&theme=tokyonight&hide_border=true&border_radius=10" width="100%"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=EmrhnHARPUT&hide_border=true&background=0D1117&ring=F97316&fire=F97316&currStreakLabel=F97316&sideLabels=C9D1D9&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=6B7280&border_radius=12" width="100%"/>
 
 <br/><br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=EmrhnHARPUT&theme=tokyonight&hide_border=true&border_radius=10" width="100%"/>
+<img src="https://github-profile-trophy-fork-two.vercel.app/?username=EmrhnHARPUT&theme=blackOrange&no-frame=true&row=1&column=6&title=Commits,Repositories,Stars,Followers,PullRequest,Issue&margin-w=8" width="100%"/>
 
 <br/><br/>
 
-<img src="https://github-profile-trophy-fork-two.vercel.app/?username=EmrhnHARPUT&theme=tokyonight&no-frame=true&row=1&column=6&title=Commits,Repositories,Stars,Followers,PullRequest,Issue" width="100%"/>
-
-<br/><br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=EmrhnHARPUT&theme=tokyo-night&hide_border=true&area=true" width="100%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=EmrhnHARPUT&hide_border=true&bg_color=0D1117&color=F97316&line=F97316&point=FFFFFF&area=true&area_color=F97316" width="100%"/>
 
 </div>
 
