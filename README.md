@@ -19,29 +19,35 @@
 
 <p align="center">
 <img src="https://skillicons.dev/icons?i=python,html" />
-</p>
-
+</p>       
+  
 ---
 
 ## GitHub İstatistikleri
 
 <div align="center">
-
-<img src="https://komarev.com/ghpvc/?username=EmrhnHARPUT&label=Profil+Görüntülenme&color=F97316&style=flat" />
-
-<br/><br/>
-
-<img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=EmrhnHARPUT&layout=donut&hide_border=true&bg_color=0D1117&title_color=F97316&text_color=C9D1D9&border_radius=12" width="45%"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=EmrhnHARPUT&hide_border=true&background=0D1117&ring=F97316&fire=F97316&currStreakLabel=F97316&sideLabels=C9D1D9&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=6B7280&border_radius=12" width="45%"/>
-
-<br/><br/>
-
-<img src="https://github-profile-trophy-fork-two.vercel.app/?username=EmrhnHARPUT&theme=blackOrange&no-frame=true&row=1&column=6&title=Commits,Repositories,Stars,Followers,PullRequest,Issue&margin-w=8" width="100%"/>
-
-<br/><br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=EmrhnHARPUT&hide_border=true&bg_color=0D1117&color=F97316&line=F97316&point=FFFFFF&area=true&area_color=F97316" width="100%"/>
-
+<table border="0">
+  <tr>
+    <td align="center" valign="middle">
+      <!-- 1. Genel İstatistik Kartı -->
+      <img src="https://github-readme-stats.vercel.app/api?username=EmrhnHARPUT&show_icons=true&bg_color=0D1117&title_color=F97316&icon_color=F97316&text_color=C9D1D9&hide_border=true" height="150px"/>
+    </td>
+    <td align="center" valign="middle">
+      <!-- 2. Commit Seri Kartı (Streak) -->
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=EmrhnHARPUT&hide_border=true&background=0D1117&ring=F97316&fire=F97316&currStreakLabel=F97316&sideLabels=C9D1D9&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=6B7280" height="150px"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" valign="middle">
+      <!-- 3. Kupalar (Trophies) -->
+      <img src="https://github-profile-trophy-fork-two.vercel.app/?username=EmrhnHARPUT&theme=blackOrange&no-frame=true&row=1&column=3" height="130px"/>
+    </td>
+    <td align="center" valign="middle">
+      <!-- 4. Kodlama Alışkanlıkları / Aktivite Kartı -->
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=EmrhnHARPUT&layout=compact&bg_color=0D1117&title_color=F97316&text_color=C9D1D9&hide_border=true" height="130px"/>
+    </td>
+  </tr>
+</table>
 </div>
 
 ---
