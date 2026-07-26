@@ -67,6 +67,11 @@
 > MRI görüntü modeli ile klinik biyokimya modelini birleştirip if-else tabanlı filtre katmanıyla otomatik tanı raporu üreten, tamamen lokal çalışan karar destek sistemi.
 > FastAPI backend ve TypeScript frontend ile geliştirilmiştir; hiçbir ücretli servis veya bulut bağımlılığı yoktur.
 
+### Sanal Çalışma Masası
+> Fiziksel bir çalışma masasının kuşbakışı dijital karşılığı: kullanıcı her projesi için ayrı bir masa oluşturur, notlarını, görev listelerini, dokümanlarını ve eskizlerini bu yüzeye serbestçe konumlandırır.
+> Masa türü o işe uygun araç setini ve envanteri belirler; kartlar birer görsel değil, üzerinde çalışılabilen canlı bileşenlerdir.
+
+
 ---
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:C2410C,100:F97316&height=120&section=footer" width="100%"/>
