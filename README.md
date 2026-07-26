@@ -41,35 +41,27 @@
 
 ### Kripto Teknik Analiz Uygulaması
 > Fiyat verilerini analiz ederek teknik göstergelere dayalı sinyal üreten gerçek zamanlı kripto dashboard'u.
-> EMA20/EMA50/EMA200 ve RSI göstergeleriyle trend yönünü belirler, ürettiği sinyalin gerekçesini açıklar.
 
 ### Terminal Tabanlı Öğrenci Bilgi Sistemi
 > Öğrenci, ders ve kayıt işlemlerini yöneten konsol uygulaması.
-> Python ile geliştirilmiş, dosya/veri tabanı üzerinden çalışan basit ve hızlı bir CRUD sistemidir.
 
 ### Öğrenen Terminal Chatbot
 > Sorulan soruları kaydederek zamanla kendini geliştiren basit chatbot uygulaması.
-> Kullanıcı etkileşimlerinden öğrenerek zamanla daha isabetli cevaplar üretir.
 
 ### Türkiye İllerine Ait Hava Durumu Veri Analizi ve Tahmini
 > Türkiye'nin 81 iline ait 70 yıllık hava durumu verilerini analiz edip makine öğrenmesiyle iklim tahminleri üreten proje.
-> Open-Meteo Archive API'sinden çekilen verilerle iklim değişikliği trendlerini ve bölgesel anomalileri inceler.
 
 ### DataSeek AI
 > Veri seti, makale ve kod kaynaklarını tek merkezde toplayıp güvenlik analizi yapan hibrit arama motoru.
-> Python ile geliştirilmiştir; kaynakları SSL ve domain güvenlik puanına göre "Doğrulanmış/Doğrulanmamış" olarak etiketler.
 
 ### VoxFleet AI
 > LLM ve VLM teknolojileriyle endüstriyel otonom robot filolarını doğal dil komutlarıyla yöneten ve anomali tespiti yapan yapay zeka sistemi.
-> Öngörücü bakım özelliğiyle arıza riskini yüksek doğrulukta tespit etmeyi hedefler.
 
 ### IMEJE Health — Klinik Karar Destek Sistemi
 > MRI görüntü modeli ile klinik biyokimya modelini birleştirip if-else tabanlı filtre katmanıyla otomatik tanı raporu üreten, tamamen lokal çalışan karar destek sistemi.
-> FastAPI backend ve TypeScript frontend ile geliştirilmiştir; hiçbir ücretli servis veya bulut bağımlılığı yoktur.
 
 ### Sanal Çalışma Masası
 > Fiziksel bir çalışma masasının kuşbakışı dijital karşılığı: kullanıcı her projesi için ayrı bir masa oluşturur, notlarını, görev listelerini, dokümanlarını ve eskizlerini bu yüzeye serbestçe konumlandırır.
-> Masa türü o işe uygun araç setini ve envanteri belirler; kartlar birer görsel değil, üzerinde çalışılabilen canlı bileşenlerdir.
 
 
 ---
