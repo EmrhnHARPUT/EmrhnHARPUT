@@ -60,7 +60,7 @@
 ### IMEJE Health — Klinik Karar Destek Sistemi
 > MRI görüntü modeli ile klinik biyokimya modelini birleştirip if-else tabanlı filtre katmanıyla otomatik tanı raporu üreten, tamamen lokal çalışan karar destek sistemi.
 
-### Sanal Çalışma Masası
+### TabulaCore
 > Fiziksel bir çalışma masasının kuşbakışı dijital karşılığı: kullanıcı her projesi için ayrı bir masa oluşturur, notlarını, görev listelerini, dokümanlarını ve eskizlerini bu yüzeye serbestçe konumlandırır.
 
 
