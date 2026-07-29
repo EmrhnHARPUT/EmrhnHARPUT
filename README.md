@@ -27,7 +27,7 @@
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=EmrhnHARPUT&label=Profil+Ziyaretçisi&color=F97316&style=for-the-badge" alt="Profil Ziyaretçisi" />
   <br/><br/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=EmrhnHARPUT&hide_border=true&background=0D1117&ring=F97316&fire=F97316&currStreakLabel=F97316&sideLabels=C9D1D9&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=6B7280" width="44%" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com/?user=EmrhnHARPUT&hide_border=true&background=0D1117&ring=F97316&fire=F97316&currStreakLabel=F97316&sideLabels=C9D1D9&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=6B7280" width="44%" alt="GitHub Streak" />
   <img src="https://github-readme-stats-fast.vercel.app/api?username=EmrhnHARPUT&show_icons=true&bg_color=0D1117&title_color=F97316&icon_color=F97316&text_color=C9D1D9&hide_border=true" width="44%" alt="Genel İstatistikler" />
   <br/><br/>
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=EmrhnHARPUT&bg_color=0D1117&color=F97316&line=F97316&point=FFFFFF&area=true&area_color=F97316&hide_border=true" width="90%" alt="Aktivite Grafiği" />
