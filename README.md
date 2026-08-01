@@ -39,31 +39,6 @@
 ## Projeler
 <img src="https://raw.githubusercontent.com/EmrhnHARPUT/EmrhnHARPUT/main/projects.svg?v=1" width="100%" alt="Projeler"/>
 
-### Kripto Teknik Analiz Uygulaması
-> Fiyat verilerini analiz ederek teknik göstergelere dayalı sinyal üreten gerçek zamanlı kripto dashboard'u.
-
-### Terminal Tabanlı Öğrenci Bilgi Sistemi
-> Öğrenci, ders ve kayıt işlemlerini yöneten konsol uygulaması.
-
-### Öğrenen Terminal Chatbot
-> Sorulan soruları kaydederek zamanla kendini geliştiren basit chatbot uygulaması.
-
-### Türkiye İllerine Ait Hava Durumu Veri Analizi ve Tahmini
-> Türkiye'nin 81 iline ait 70 yıllık hava durumu verilerini analiz edip makine öğrenmesiyle iklim tahminleri üreten proje.
-
-### DataSeek AI
-> Veri seti, makale ve kod kaynaklarını tek merkezde toplayıp güvenlik analizi yapan hibrit arama motoru.
-
-### VoxFleet AI
-> LLM ve VLM teknolojileriyle endüstriyel otonom robot filolarını doğal dil komutlarıyla yöneten ve anomali tespiti yapan yapay zeka sistemi.
-
-### IMEJE Health — Klinik Karar Destek Sistemi
-> MRI görüntü modeli ile klinik biyokimya modelini birleştirip if-else tabanlı filtre katmanıyla otomatik tanı raporu üreten, tamamen lokal çalışan karar destek sistemi.
-
-### PinTaby
-> Fiziksel bir çalışma masasının kuşbakışı dijital karşılığı: kullanıcı her projesi için ayrı bir masa oluşturur, notlarını, görev listelerini, dokümanlarını ve eskizlerini bu yüzeye serbestçe konumlandırır.
-
-
 ---
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:C2410C,100:F97316&height=120&section=footer" width="100%"/>
