@@ -37,7 +37,7 @@
 ---
 
 ## Projeler
-
+<img src="https://raw.githubusercontent.com/EmrhnHARPUT/EmrhnHARPUT/main/projects.svg?v=1" width="100%" alt="Projeler"/>
 
 ### Kripto Teknik Analiz Uygulaması
 > Fiyat verilerini analiz ederek teknik göstergelere dayalı sinyal üreten gerçek zamanlı kripto dashboard'u.
