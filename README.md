@@ -1,6 +1,6 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F1B3D,100:7DD3FC&height=180&section=header" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F1B3D,100:38BDF8&height=180&section=header" width="100%"/>
 
-<img src="https://raw.githubusercontent.com/EmrhnHARPUT/EmrhnHARPUT/main/assets/typing_vol2.svg" alt="Emirhan HARPUT"/>
+<img src="https://raw.githubusercontent.com/EmrhnHARPUT/EmrhnHARPUT/main/assets/typing_vol2.svg?v=2" alt="Emirhan HARPUT"/>
 
 ---
 
@@ -25,20 +25,20 @@
 
 ## GitHub İstatistikleri
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=EmrhnHARPUT&label=Profil+Ziyaretçisi&color=38BDF8&style=for-the-badge" alt="Profil Ziyaretçisi" />
+  <img src="https://komarev.com/ghpvc/?username=EmrhnHARPUT&label=Profil+Ziyaretçisi&color=0EA5E9&style=for-the-badge" alt="Profil Ziyaretçisi" />
   <br/><br/>
-  <img src="https://streak-stats.demolab.com/?user=EmrhnHARPUT&hide_border=true&background=0B1220&ring=38BDF8&fire=38BDF8&currStreakLabel=38BDF8&sideLabels=C9D1D9&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=6B7280" width="44%" alt="GitHub Streak" />
-  <img src="https://github-readme-stats-fast.vercel.app/api?username=EmrhnHARPUT&show_icons=true&bg_color=0B1220&title_color=38BDF8&icon_color=38BDF8&text_color=C9D1D9&hide_border=true" width="44%" alt="Genel İstatistikler" />
+  <img src="https://streak-stats.demolab.com/?user=EmrhnHARPUT&hide_border=true&background=0B1220&ring=0EA5E9&fire=0EA5E9&currStreakLabel=0EA5E9&sideLabels=C9D1D9&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=6B7280" width="44%" alt="GitHub Streak" />
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=EmrhnHARPUT&show_icons=true&bg_color=0B1220&title_color=0EA5E9&icon_color=0EA5E9&text_color=C9D1D9&hide_border=true" width="44%" alt="Genel İstatistikler" />
   <br/><br/>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=EmrhnHARPUT&bg_color=0B1220&color=38BDF8&line=38BDF8&point=FFFFFF&area=true&area_color=38BDF8&hide_border=true" width="90%" alt="Aktivite Grafiği" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=EmrhnHARPUT&bg_color=0B1220&color=0EA5E9&line=0EA5E9&point=FFFFFF&area=true&area_color=0EA5E9&hide_border=true" width="90%" alt="Aktivite Grafiği" />
   <br/><br/>
 </div>
 
 ---
 
 ## Projeler
-<img src="https://raw.githubusercontent.com/EmrhnHARPUT/EmrhnHARPUT/main/assets/projects.svg?v=1" width="100%" alt="Projeler"/>
+<img src="https://raw.githubusercontent.com/EmrhnHARPUT/EmrhnHARPUT/main/assets/projects.svg?v=2" width="100%" alt="Projeler"/>
 
 ---
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7DD3FC,100:0F1B3D&height=120&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:38BDF8,100:0F1B3D&height=120&section=footer" width="100%"/>
