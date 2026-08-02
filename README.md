@@ -24,15 +24,7 @@
 ---
 
 ## GitHub İstatistikleri
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=EmrhnHARPUT&label=Profil+Ziyaretçisi&color=0EA5E9&style=for-the-badge" alt="Profil Ziyaretçisi" />
-  <br/><br/>
-  <img src="https://streak-stats.demolab.com/?user=EmrhnHARPUT&hide_border=true&background=0B1220&ring=0EA5E9&fire=0EA5E9&currStreakLabel=0EA5E9&sideLabels=C9D1D9&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=6B7280" width="44%" alt="GitHub Streak" />
-  <img src="https://github-readme-stats-fast.vercel.app/api?username=EmrhnHARPUT&show_icons=true&bg_color=0B1220&title_color=0EA5E9&icon_color=0EA5E9&text_color=C9D1D9&hide_border=true" width="44%" alt="Genel İstatistikler" />
-  <br/><br/>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=EmrhnHARPUT&bg_color=0B1220&color=0EA5E9&line=0EA5E9&point=FFFFFF&area=true&area_color=0EA5E9&hide_border=true" width="90%" alt="Aktivite Grafiği" />
-  <br/><br/>
-</div>
+
 
 ---
 
