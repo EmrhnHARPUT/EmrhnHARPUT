@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 200" width="1200" height="200" role="img" aria-label="Emirhan HARPUT">
+<defs>
+  <style>
+    @keyframes drift  { 0%,100%{transform:translate(0,0)} 33%{transform:translate(70px,26px)} 66%{transform:translate(-46px,-18px)} }
+    @keyframes drift2 { 0%,100%{transform:translate(0,0)} 40%{transform:translate(-64px,22px)} 75%{transform:translate(38px,-24px)} }
+    @keyframes beat   { 0%,100%{opacity:.3} 50%{opacity:1} }
+    .o1{animation:drift 17s ease-in-out infinite}
+    .o2{animation:drift2 21s ease-in-out infinite}
+    .o3{animation:drift 25s ease-in-out infinite;animation-delay:-8s}
+    .nd{animation:beat 3.4s ease-in-out infinite}
+    @media (prefers-reduced-motion:reduce){.o1,.o2,.o3,.nd{animation:none}}
+  </style>
+
+  <clipPath id="hclip"><rect width="1200" height="200" rx="18"/></clipPath>
+
+  <linearGradient id="accent" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1200" y2="0">
+    <stop offset="0" stop-color="#8B5CF6"/>
+    <stop offset=".5" stop-color="#6366F1"/>
+    <stop offset="1" stop-color="#22D3EE"/>
+  </linearGradient>
+
+  <linearGradient id="hbg" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1200" y2="200">
+    <stop offset="0" stop-color="#11102E"/>
+    <stop offset=".55" stop-color="#0A0D1F"/>
+    <stop offset="1" stop-color="#061018"/>
+  </linearGradient>
+
+  <radialGradient id="orbV"><stop offset="0" stop-color="#8B5CF6" stop-opacity=".55"/><stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/></radialGradient>
+  <radialGradient id="orbC"><stop offset="0" stop-color="#22D3EE" stop-opacity=".45"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/></radialGradient>
+  <radialGradient id="orbI"><stop offset="0" stop-color="#6366F1" stop-opacity=".5"/><stop offset="1" stop-color="#6366F1" stop-opacity="0"/></radialGradient>
+
+  <pattern id="hgrid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M40 0H0V40" fill="none" stroke="#222A52" stroke-width="1"/>
+  </pattern>
+
+  <linearGradient id="shine" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="280" y2="0">
+    <stop offset="0" stop-color="#E9D5FF" stop-opacity="0"/>
+    <stop offset=".5" stop-color="#FFFFFF" stop-opacity=".9"/>
+    <stop offset="1" stop-color="#A5F3FC" stop-opacity="0"/>
+  </linearGradient>
+
+  <filter id="hglow" x="-60%" y="-60%" width="220%" height="220%">
+    <feGaussianBlur stdDeviation="3.4" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+
+  <!-- yalnizca geometri: stroke <use> uzerinden verilir -->
+  <path id="pA" d="M-40,142 C 190,142 235,52 430,52 S 745,150 950,150 S 1170,74 1250,74"/>
+  <path id="pB" d="M-40,58 C 210,58 250,152 500,152 S 800,58 1010,58 S 1190,124 1250,124"/>
+</defs>
+
+<g clip-path="url(#hclip)">
+  <rect width="1200" height="200" fill="url(#hbg)"/>
+  <rect width="1200" height="200" fill="url(#hgrid)" opacity=".45"/>
+
+  <!-- aurora -->
+  <circle class="o1" cx="230" cy="52" r="220" fill="url(#orbV)"/>
+  <circle class="o2" cx="960" cy="150" r="240" fill="url(#orbC)"/>
+  <circle class="o3" cx="600" cy="200" r="200" fill="url(#orbI)"/>
+
+  <!-- veri akisi hatlari -->
+  <g fill="none" stroke-linecap="round">
+    <use xlink:href="#pA" href="#pA" stroke="#2A2F5C" stroke-width="1.4"/>
+    <use xlink:href="#pB" href="#pB" stroke="#2A2F5C" stroke-width="1.4"/>
+
+    <use xlink:href="#pA" href="#pA" stroke="url(#accent)" stroke-width="2.6" stroke-dasharray="120 520" filter="url(#hglow)">
+      <animate attributeName="stroke-dashoffset" values="640;0" dur="5.5s" repeatCount="indefinite"/>
+    </use>
+    <use xlink:href="#pB" href="#pB" stroke="url(#accent)" stroke-width="2.6" stroke-dasharray="90 550" filter="url(#hglow)">
+      <animate attributeName="stroke-dashoffset" values="0;640" dur="7s" repeatCount="indefinite"/>
+    </use>
+  </g>
+
+  <!-- dugum noktalari -->
+  <g filter="url(#hglow)">
+    <circle class="nd" cx="430" cy="52" r="3.6" fill="#A78BFA"/>
+    <circle class="nd" cx="950" cy="150" r="3.6" fill="#22D3EE" style="animation-delay:-1.1s"/>
+    <circle class="nd" cx="500" cy="152" r="3.6" fill="#818CF8" style="animation-delay:-2.2s"/>
+    <circle class="nd" cx="1010" cy="58" r="3.6" fill="#A78BFA" style="animation-delay:-.6s"/>
+    <circle class="nd" cx="180" cy="120" r="2.8" fill="#22D3EE" style="animation-delay:-1.7s"/>
+    <circle class="nd" cx="760" cy="96" r="2.8" fill="#818CF8" style="animation-delay:-2.8s"/>
+  </g>
+
+  <!-- alt aksan cizgisi + kayan isik -->
+  <rect x="0" y="194" width="1200" height="6" fill="url(#accent)" opacity=".9"/>
+  <rect x="0" y="194" width="280" height="6" fill="url(#shine)" opacity=".75">
+    <animateTransform attributeName="transform" type="translate" values="-320,0;1240,0" dur="4.6s" repeatCount="indefinite"/>
+  </rect>
+</g>
+</svg>
