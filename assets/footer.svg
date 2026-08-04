@@ -1,85 +1,55 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 130" width="1200" height="130" role="img" aria-label="Emirhan HARPUT">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 88" width="1200" height="88" role="img" aria-label="Emirhan HARPUT">
 <defs>
+  <clipPath id="cl"><rect width="1200" height="88" rx="16"/></clipPath>
+  <linearGradient id="bg" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1200" y2="88"><stop offset="0" stop-color="#040810"/><stop offset=".45" stop-color="#071020"/><stop offset="1" stop-color="#02050C"/></linearGradient>
+  <radialGradient id="vig" cx="50%" cy="50%" r="72%"><stop offset=".55" stop-color="#000000" stop-opacity="0"/><stop offset="1" stop-color="#000000" stop-opacity=".55"/></radialGradient>
+  <filter id="bloom" x="-45%" y="-160%" width="190%" height="420%"><feGaussianBlur stdDeviation="13"/></filter>
+  <filter id="soft" x="-30%" y="-120%" width="160%" height="340%"><feGaussianBlur stdDeviation="3.6"/></filter>
+  <filter id="tiny" x="-30%" y="-120%" width="160%" height="340%"><feGaussianBlur stdDeviation="1.3"/></filter>
+  <path id="fl" d="M-20,56 H352 L372,44 H828 L848,56 H1220" fill="none"/>
+  <linearGradient id="hot" gradientUnits="userSpaceOnUse" x1="372" y1="0" x2="828" y2="0"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/><stop offset=".5" stop-color="#FFFFFF" stop-opacity="1"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
   <style>
-    @keyframes fdrift { 0%,100%{transform:translate(0,0)} 35%{transform:translate(-58px,-18px)} 70%{transform:translate(44px,14px)} }
-    @keyframes fbeat  { 0%,100%{opacity:.3} 50%{opacity:1} }
-    @keyframes rise   { 0%{transform:translateY(0);opacity:0} 15%{opacity:.9} 100%{transform:translateY(-96px);opacity:0} }
-    .fo1{animation:fdrift 19s ease-in-out infinite}
-    .fo2{animation:fdrift 23s ease-in-out infinite;animation-delay:-9s}
-    .fnd{animation:fbeat 3.6s ease-in-out infinite}
-    .pt{animation:rise 9s linear infinite}
-    @media (prefers-reduced-motion:reduce){.fo1,.fo2,.fnd{animation:none}.pt{animation:none;opacity:.5}}
+    @keyframes tw{0%,100%{opacity:.15}50%{opacity:.9}}
+    @keyframes pulse{0%,100%{opacity:.65}50%{opacity:1}}
+    .tw{animation:tw 4.2s ease-in-out infinite}
+    .ho{animation:pulse 5s ease-in-out infinite}
+    @media (prefers-reduced-motion:reduce){.tw,.ho{animation:none}}
   </style>
-
-  <clipPath id="fclip"><rect width="1200" height="130" rx="18"/></clipPath>
-
-  <linearGradient id="faccent" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1200" y2="0">
-    <stop offset="0" stop-color="#22D3EE"/>
-    <stop offset=".5" stop-color="#6366F1"/>
-    <stop offset="1" stop-color="#8B5CF6"/>
-  </linearGradient>
-
-  <linearGradient id="fbg" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1200" y2="130">
-    <stop offset="0" stop-color="#061018"/>
-    <stop offset=".5" stop-color="#0A0D1F"/>
-    <stop offset="1" stop-color="#11102E"/>
-  </linearGradient>
-
-  <radialGradient id="fOrbC"><stop offset="0" stop-color="#22D3EE" stop-opacity=".42"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/></radialGradient>
-  <radialGradient id="fOrbV"><stop offset="0" stop-color="#8B5CF6" stop-opacity=".5"/><stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/></radialGradient>
-
-  <pattern id="fgrid" width="40" height="40" patternUnits="userSpaceOnUse">
-    <path d="M40 0H0V40" fill="none" stroke="#222A52" stroke-width="1"/>
-  </pattern>
-
-  <linearGradient id="fshine" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="280" y2="0">
-    <stop offset="0" stop-color="#A5F3FC" stop-opacity="0"/>
-    <stop offset=".5" stop-color="#FFFFFF" stop-opacity=".9"/>
-    <stop offset="1" stop-color="#E9D5FF" stop-opacity="0"/>
-  </linearGradient>
-
-  <filter id="fglow" x="-60%" y="-60%" width="220%" height="220%">
-    <feGaussianBlur stdDeviation="3" result="b"/>
-    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-  </filter>
-
-  <path id="fpA" d="M-40,72 C 220,72 260,26 520,26 S 840,96 1080,96 S 1220,52 1250,52"/>
 </defs>
-
-<g clip-path="url(#fclip)">
-  <rect width="1200" height="130" fill="url(#fbg)"/>
-  <rect width="1200" height="130" fill="url(#fgrid)" opacity=".4"/>
-
-  <circle class="fo1" cx="300" cy="130" r="190" fill="url(#fOrbC)"/>
-  <circle class="fo2" cx="900" cy="10" r="180" fill="url(#fOrbV)"/>
-
-  <!-- yukselen parcaciklar -->
-  <g filter="url(#fglow)">
-    <circle class="pt" cx="150" cy="120" r="1.8" fill="#22D3EE"/>
-    <circle class="pt" cx="330" cy="120" r="2.2" fill="#A78BFA" style="animation-delay:-2.5s"/>
-    <circle class="pt" cx="520" cy="120" r="1.6" fill="#818CF8" style="animation-delay:-5s"/>
-    <circle class="pt" cx="700" cy="120" r="2.2" fill="#22D3EE" style="animation-delay:-1.2s"/>
-    <circle class="pt" cx="880" cy="120" r="1.8" fill="#8B5CF6" style="animation-delay:-6.4s"/>
-    <circle class="pt" cx="1050" cy="120" r="2" fill="#A78BFA" style="animation-delay:-3.8s"/>
+<g clip-path="url(#cl)">
+  <rect width="1200" height="88" fill="url(#bg)"/>
+  <g fill="none" stroke="#2F6C93" stroke-width="1.3" opacity=".75" stroke-linecap="round">
+    <path d="M14,20 L120,20 L168,56"/>
+    <path d="M1186,20 L1080,20 L1032,56"/>
+    <path d="M40,74 L150,74" opacity=".5"/>
+    <path d="M1160,74 L1050,74" opacity=".5"/>
   </g>
-
-  <!-- veri akisi -->
-  <g fill="none" stroke-linecap="round">
-    <use xlink:href="#fpA" href="#fpA" stroke="#2A2F5C" stroke-width="1.4"/>
-    <use xlink:href="#fpA" href="#fpA" stroke="url(#faccent)" stroke-width="2.4" stroke-dasharray="110 520" filter="url(#fglow)">
-      <animate attributeName="stroke-dashoffset" values="630;0" dur="6.2s" repeatCount="indefinite"/>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <use xlink:href="#fl" href="#fl" stroke="#0091E6" stroke-width="14" opacity=".22" filter="url(#bloom)"/>
+    <use xlink:href="#fl" href="#fl" stroke="#00C8FF" stroke-width="4.5" opacity=".45" filter="url(#soft)"/>
+    <use xlink:href="#fl" href="#fl" stroke="#4DE3FF" stroke-width="1.6" opacity=".9"/>
+    <line class="ho" x1="372" y1="44" x2="828" y2="44" stroke="url(#hot)" stroke-width="2.6" filter="url(#tiny)"/>
+    <line class="ho" x1="372" y1="44" x2="828" y2="44" stroke="url(#hot)" stroke-width="9" opacity=".35" filter="url(#soft)"/>
+    <use xlink:href="#fl" href="#fl" stroke="#FFFFFF" stroke-width="3" stroke-dasharray="110 1162" filter="url(#soft)" opacity=".85">
+      <animate attributeName="stroke-dashoffset" values="1272;0" dur="6.5s" repeatCount="indefinite"/>
     </use>
   </g>
-
-  <g filter="url(#fglow)">
-    <circle class="fnd" cx="520" cy="26" r="3.2" fill="#A78BFA"/>
-    <circle class="fnd" cx="1080" cy="96" r="3.2" fill="#22D3EE" style="animation-delay:-1.8s"/>
+  <g filter="url(#tiny)">
+    <circle class="tw" cx="553" cy="29" r="1.8" fill="#4DE3FF" style="animation-delay:-1.0s"/>
+    <circle class="tw" cx="136" cy="63" r="1.4" fill="#FFFFFF" style="animation-delay:-2.2s"/>
+    <circle class="tw" cx="540" cy="66" r="1.2" fill="#4DE3FF" style="animation-delay:-3.1s"/>
+    <circle class="tw" cx="356" cy="64" r="1.0" fill="#FFFFFF" style="animation-delay:-3.5s"/>
+    <circle class="tw" cx="458" cy="24" r="1.2" fill="#4DE3FF" style="animation-delay:-2.2s"/>
+    <circle class="tw" cx="449" cy="66" r="1.2" fill="#FFFFFF" style="animation-delay:-0.7s"/>
+    <circle class="tw" cx="328" cy="62" r="1.2" fill="#4DE3FF" style="animation-delay:-0.0s"/>
+    <circle class="tw" cx="722" cy="69" r="1.8" fill="#4DE3FF" style="animation-delay:-1.3s"/>
+    <circle class="tw" cx="1015" cy="33" r="1.2" fill="#4DE3FF" style="animation-delay:-3.8s"/>
+    <circle class="tw" cx="762" cy="60" r="1.3" fill="#4DE3FF" style="animation-delay:-0.0s"/>
+    <circle class="tw" cx="125" cy="23" r="1.7" fill="#4DE3FF" style="animation-delay:-3.8s"/>
+    <circle class="tw" cx="735" cy="71" r="1.8" fill="#FFFFFF" style="animation-delay:-3.0s"/>
+    <circle class="tw" cx="782" cy="61" r="1.9" fill="#FFFFFF" style="animation-delay:-1.4s"/>
+    <circle class="tw" cx="772" cy="70" r="1.9" fill="#4DE3FF" style="animation-delay:-1.2s"/>
   </g>
-
-  <!-- ust aksan cizgisi + kayan isik -->
-  <rect x="0" y="0" width="1200" height="6" fill="url(#faccent)" opacity=".9"/>
-  <rect x="0" y="0" width="280" height="6" fill="url(#fshine)" opacity=".75">
-    <animateTransform attributeName="transform" type="translate" values="1240,0;-320,0" dur="5.2s" repeatCount="indefinite"/>
-  </rect>
+  <rect width="1200" height="88" fill="url(#vig)"/>
 </g>
 </svg>
