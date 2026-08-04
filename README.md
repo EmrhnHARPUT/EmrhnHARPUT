@@ -37,7 +37,7 @@
 ---
 
 ## Projeler
-<img src="https://raw.githubusercontent.com/EmrhnHARPUT/EmrhnHARPUT/main/assets/projects.svg?v=4" width="100%" alt="Projeler"/>
+<img src="https://raw.githubusercontent.com/EmrhnHARPUT/EmrhnHARPUT/main/assets/projects.svg?v=5" width="100%" alt="Projeler"/>
 
 ---
 

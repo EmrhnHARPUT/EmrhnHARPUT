@@ -1,94 +1,55 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 519" width="1200" height="519" role="img" aria-label="Projelerim">
-<style>text{font-family:"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",Arial,sans-serif}</style>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 608" width="1200" height="608" role="img" aria-label="Projelerim">
+<style>text{font-family:"Segoe UI",Roboto,Ubuntu,Arial,sans-serif}
+.m{font-family:"Consolas","SF Mono",Menlo,monospace}
+</style>
 <defs>
-  <linearGradient id="pbg" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1200" y2="519"><stop offset="0" stop-color="#040810"/><stop offset=".5" stop-color="#071020"/><stop offset="1" stop-color="#040810"/></linearGradient>
-  <linearGradient id="card" x1="0" y1="0" x2="0.4" y2="1"><stop offset="0" stop-color="#0E1D33"/><stop offset="1" stop-color="#081120"/></linearGradient>
-  <filter id="lift" x="-14%" y="-14%" width="128%" height="134%"><feGaussianBlur stdDeviation="5"/></filter>
+  <clipPath id="pc"><rect width="1200" height="608" rx="14"/></clipPath>
+  <linearGradient id="pbg" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="608"><stop offset="0" stop-color="#090A1C"/><stop offset="1" stop-color="#04060E"/></linearGradient>
+  <linearGradient id="card" x1="0" y1="0" x2="0.35" y2="1"><stop offset="0" stop-color="#101A30"/><stop offset="1" stop-color="#090F1E"/></linearGradient>
+  <filter id="lift" x="-16%" y="-16%" width="132%" height="140%"><feGaussianBlur stdDeviation="5"/></filter>
+  <pattern id="scan" width="2" height="3" patternUnits="userSpaceOnUse"><rect width="2" height="1" fill="#000" opacity=".16"/></pattern>
 </defs>
-<rect width="1200" height="519" rx="14" fill="url(#pbg)"/>
-
-<g>
-  <rect x="22" y="22" width="372" height="145" rx="10" fill="url(#card)" stroke="#1B4568"/>
-  <path d="M36,22.6 H380" stroke="#2E6E9C" stroke-width="1" opacity=".8"/>
-  <rect x="34" y="38" width="3" height="113" rx="1.5" fill="#00C8FF" opacity=".45" filter="url(#lift)"/>
-  <rect x="34" y="38" width="3" height="113" rx="1.5" fill="#00C8FF"/>
-  <text x="44" y="56" fill="#D6F5FF" font-size="15.0" font-weight="600" letter-spacing=".1">Kripto Teknik Analiz Uygulaması</text>
-  <text x="44" y="84" fill="#8AA6C0" font-size="12.5">Fiyat verilerini analiz ederek teknik göstergelere dayalı</text>
-  <text x="44" y="101" fill="#8AA6C0" font-size="12.5">sinyal üreten gerçek zamanlı kripto dashboard'u.</text>
+<g clip-path="url(#pc)">
+  <rect width="1200" height="608" fill="url(#pbg)"/>
+  <text class="m" x="30" y="64" fill="#4DE3FF" font-size="30" font-weight="700" opacity=".30">01</text>
+  <rect x="92" y="40" width="2.5" height="40" rx="1.25" fill="#4DE3FF" opacity=".75"/>
+  <text x="110" y="56" fill="#E4F4FF" font-size="16.5" font-weight="600">Kripto Teknik Analiz Uygulaması</text>
+    <text x="110" y="80" fill="#8FA8C4" font-size="13">Fiyat verilerini analiz ederek teknik göstergelere dayalı sinyal üreten gerçek zamanlı kripto dashboard'u.</text>
+  <line x1="30" y1="94" x2="1170" y2="94" stroke="#1D3E63" opacity=".7"/>
+  <text class="m" x="30" y="134" fill="#00C8FF" font-size="30" font-weight="700" opacity=".30">02</text>
+  <rect x="92" y="110" width="2.5" height="40" rx="1.25" fill="#00C8FF" opacity=".75"/>
+  <text x="110" y="126" fill="#E4F4FF" font-size="16.5" font-weight="600">Terminal Tabanlı Öğrenci Bilgi Sistemi</text>
+    <text x="110" y="150" fill="#8FA8C4" font-size="13">Öğrenci, ders ve kayıt işlemlerini yöneten konsol uygulaması.</text>
+  <line x1="30" y1="164" x2="1170" y2="164" stroke="#1D3E63" opacity=".7"/>
+  <text class="m" x="30" y="204" fill="#C13FBF" font-size="30" font-weight="700" opacity=".30">03</text>
+  <rect x="92" y="180" width="2.5" height="40" rx="1.25" fill="#C13FBF" opacity=".75"/>
+  <text x="110" y="196" fill="#E4F4FF" font-size="16.5" font-weight="600">Öğrenen Terminal Chatbot</text>
+    <text x="110" y="220" fill="#8FA8C4" font-size="13">Sorulan soruları kaydederek zamanla kendini geliştiren basit chatbot uygulaması.</text>
+  <line x1="30" y1="234" x2="1170" y2="234" stroke="#1D3E63" opacity=".7"/>
+  <text class="m" x="30" y="274" fill="#FF5C8A" font-size="30" font-weight="700" opacity=".30">04</text>
+  <rect x="92" y="250" width="2.5" height="40" rx="1.25" fill="#FF5C8A" opacity=".75"/>
+  <text x="110" y="266" fill="#E4F4FF" font-size="16.5" font-weight="600">Türkiye İllerine Ait Hava Durumu Veri Analizi ve Tahmini</text>
+    <text x="110" y="290" fill="#8FA8C4" font-size="13">Türkiye'nin 81 iline ait 70 yıllık hava durumu verilerini analiz edip makine öğrenmesiyle iklim tahminleri üreten proje.</text>
+  <line x1="30" y1="304" x2="1170" y2="304" stroke="#1D3E63" opacity=".7"/>
+  <text class="m" x="30" y="344" fill="#4DE3FF" font-size="30" font-weight="700" opacity=".30">05</text>
+  <rect x="92" y="320" width="2.5" height="40" rx="1.25" fill="#4DE3FF" opacity=".75"/>
+  <text x="110" y="336" fill="#E4F4FF" font-size="16.5" font-weight="600">DataSeek AI</text>
+    <text x="110" y="360" fill="#8FA8C4" font-size="13">Veri seti, makale ve kod kaynaklarını tek merkezde toplayıp güvenlik analizi yapan hibrit arama motoru.</text>
+  <line x1="30" y1="374" x2="1170" y2="374" stroke="#1D3E63" opacity=".7"/>
+  <text class="m" x="30" y="414" fill="#00C8FF" font-size="30" font-weight="700" opacity=".30">06</text>
+  <rect x="92" y="390" width="2.5" height="40" rx="1.25" fill="#00C8FF" opacity=".75"/>
+  <text x="110" y="406" fill="#E4F4FF" font-size="16.5" font-weight="600">VoxFleet AI</text>
+    <text x="110" y="430" fill="#8FA8C4" font-size="13">LLM ve VLM teknolojileriyle endüstriyel otonom robot filolarını doğal dil komutlarıyla yöneten ve anomali tespiti yapan yapay zeka sistemi.</text>
+  <line x1="30" y1="444" x2="1170" y2="444" stroke="#1D3E63" opacity=".7"/>
+  <text class="m" x="30" y="484" fill="#C13FBF" font-size="30" font-weight="700" opacity=".30">07</text>
+  <rect x="92" y="460" width="2.5" height="40" rx="1.25" fill="#C13FBF" opacity=".75"/>
+  <text x="110" y="476" fill="#E4F4FF" font-size="16.5" font-weight="600">IMEJE Health — Klinik Karar Destek Sistemi</text>
+    <text x="110" y="500" fill="#8FA8C4" font-size="13">MRI görüntü modeli ile klinik biyokimya modelini birleştirip otomatik tanı raporu üreten karar destek sistemi.</text>
+  <line x1="30" y1="514" x2="1170" y2="514" stroke="#1D3E63" opacity=".7"/>
+  <text class="m" x="30" y="554" fill="#FF5C8A" font-size="30" font-weight="700" opacity=".30">08</text>
+  <rect x="92" y="530" width="2.5" height="40" rx="1.25" fill="#FF5C8A" opacity=".75"/>
+  <text x="110" y="546" fill="#E4F4FF" font-size="16.5" font-weight="600">PinTaby</text>
+    <text x="110" y="570" fill="#8FA8C4" font-size="13">Fiziksel çalışma masasının kuşbakışı dijital karşılığı: her proje için ayrı bir masa, üzerinde notlar ve görevler.</text>
+  <rect width="1200" height="608" fill="url(#scan)"/>
 </g>
-
-<g>
-  <rect x="414" y="22" width="372" height="145" rx="10" fill="url(#card)" stroke="#1B4568"/>
-  <path d="M428,22.6 H772" stroke="#2E6E9C" stroke-width="1" opacity=".8"/>
-  <rect x="426" y="38" width="3" height="113" rx="1.5" fill="#4DE3FF" opacity=".45" filter="url(#lift)"/>
-  <rect x="426" y="38" width="3" height="113" rx="1.5" fill="#4DE3FF"/>
-  <text x="436" y="56" fill="#D6F5FF" font-size="15.0" font-weight="600" letter-spacing=".1">Terminal Tabanlı Öğrenci Bilgi Sistemi</text>
-  <text x="436" y="84" fill="#8AA6C0" font-size="12.5">Öğrenci, ders ve kayıt işlemlerini yöneten konsol</text>
-  <text x="436" y="101" fill="#8AA6C0" font-size="12.5">uygulaması.</text>
-</g>
-
-<g>
-  <rect x="806" y="22" width="372" height="145" rx="10" fill="url(#card)" stroke="#1B4568"/>
-  <path d="M820,22.6 H1164" stroke="#2E6E9C" stroke-width="1" opacity=".8"/>
-  <rect x="818" y="38" width="3" height="113" rx="1.5" fill="#0091E6" opacity=".45" filter="url(#lift)"/>
-  <rect x="818" y="38" width="3" height="113" rx="1.5" fill="#0091E6"/>
-  <text x="828" y="56" fill="#D6F5FF" font-size="15.0" font-weight="600" letter-spacing=".1">Öğrenen Terminal Chatbot</text>
-  <text x="828" y="84" fill="#8AA6C0" font-size="12.5">Sorulan soruları kaydederek zamanla kendini geliştiren</text>
-  <text x="828" y="101" fill="#8AA6C0" font-size="12.5">basit chatbot uygulaması.</text>
-</g>
-
-<g>
-  <rect x="22" y="187" width="372" height="145" rx="10" fill="url(#card)" stroke="#1B4568"/>
-  <path d="M36,187.6 H380" stroke="#2E6E9C" stroke-width="1" opacity=".8"/>
-  <rect x="34" y="203" width="3" height="113" rx="1.5" fill="#00C8FF" opacity=".45" filter="url(#lift)"/>
-  <rect x="34" y="203" width="3" height="113" rx="1.5" fill="#00C8FF"/>
-  <text x="44" y="221" fill="#D6F5FF" font-size="15.0" font-weight="600" letter-spacing=".1">Türkiye İllerine Ait Hava Durumu Veri Analizi ve</text>
-  <text x="44" y="241" fill="#D6F5FF" font-size="15.0" font-weight="600" letter-spacing=".1">Tahmini</text>
-  <text x="44" y="269" fill="#8AA6C0" font-size="12.5">Türkiye'nin 81 iline ait 70 yıllık hava durumu verilerini</text>
-  <text x="44" y="286" fill="#8AA6C0" font-size="12.5">analiz edip makine öğrenmesiyle iklim tahminleri üreten</text>
-  <text x="44" y="303" fill="#8AA6C0" font-size="12.5">proje.</text>
-</g>
-
-<g>
-  <rect x="414" y="187" width="372" height="145" rx="10" fill="url(#card)" stroke="#1B4568"/>
-  <path d="M428,187.6 H772" stroke="#2E6E9C" stroke-width="1" opacity=".8"/>
-  <rect x="426" y="203" width="3" height="113" rx="1.5" fill="#4DE3FF" opacity=".45" filter="url(#lift)"/>
-  <rect x="426" y="203" width="3" height="113" rx="1.5" fill="#4DE3FF"/>
-  <text x="436" y="221" fill="#D6F5FF" font-size="15.0" font-weight="600" letter-spacing=".1">DataSeek AI</text>
-  <text x="436" y="249" fill="#8AA6C0" font-size="12.5">Veri seti, makale ve kod kaynaklarını tek merkezde</text>
-  <text x="436" y="266" fill="#8AA6C0" font-size="12.5">toplayıp güvenlik analizi yapan hibrit arama motoru.</text>
-</g>
-
-<g>
-  <rect x="806" y="187" width="372" height="145" rx="10" fill="url(#card)" stroke="#1B4568"/>
-  <path d="M820,187.6 H1164" stroke="#2E6E9C" stroke-width="1" opacity=".8"/>
-  <rect x="818" y="203" width="3" height="113" rx="1.5" fill="#0091E6" opacity=".45" filter="url(#lift)"/>
-  <rect x="818" y="203" width="3" height="113" rx="1.5" fill="#0091E6"/>
-  <text x="828" y="221" fill="#D6F5FF" font-size="15.0" font-weight="600" letter-spacing=".1">VoxFleet AI</text>
-  <text x="828" y="249" fill="#8AA6C0" font-size="12.5">LLM ve VLM teknolojileriyle endüstriyel otonom robot</text>
-  <text x="828" y="266" fill="#8AA6C0" font-size="12.5">filolarını doğal dil komutlarıyla yöneten ve anomali tespiti</text>
-  <text x="828" y="283" fill="#8AA6C0" font-size="12.5">yapan yapay zeka sistemi.</text>
-</g>
-
-<g>
-  <rect x="22" y="352" width="372" height="145" rx="10" fill="url(#card)" stroke="#1B4568"/>
-  <path d="M36,352.6 H380" stroke="#2E6E9C" stroke-width="1" opacity=".8"/>
-  <rect x="34" y="368" width="3" height="113" rx="1.5" fill="#00C8FF" opacity=".45" filter="url(#lift)"/>
-  <rect x="34" y="368" width="3" height="113" rx="1.5" fill="#00C8FF"/>
-  <text x="44" y="386" fill="#D6F5FF" font-size="15.0" font-weight="600" letter-spacing=".1">IMEJE Health — Klinik Karar Destek Sistemi</text>
-  <text x="44" y="414" fill="#8AA6C0" font-size="12.5">MRI görüntü modeli ile klinik biyokimya modelini</text>
-  <text x="44" y="431" fill="#8AA6C0" font-size="12.5">birleştirip otomatik tanı raporu üreten karar destek</text>
-  <text x="44" y="448" fill="#8AA6C0" font-size="12.5">sistemi.</text>
-</g>
-
-<g>
-  <rect x="414" y="352" width="372" height="145" rx="10" fill="url(#card)" stroke="#1B4568"/>
-  <path d="M428,352.6 H772" stroke="#2E6E9C" stroke-width="1" opacity=".8"/>
-  <rect x="426" y="368" width="3" height="113" rx="1.5" fill="#4DE3FF" opacity=".45" filter="url(#lift)"/>
-  <rect x="426" y="368" width="3" height="113" rx="1.5" fill="#4DE3FF"/>
-  <text x="436" y="386" fill="#D6F5FF" font-size="15.0" font-weight="600" letter-spacing=".1">PinTaby</text>
-  <text x="436" y="414" fill="#8AA6C0" font-size="12.5">Fiziksel çalışma masasının kuşbakışı dijital karşılığı: her</text>
-  <text x="436" y="431" fill="#8AA6C0" font-size="12.5">proje için ayrı bir masa, üzerinde notlar ve görevler.</text>
-</g>
-
 </svg>
