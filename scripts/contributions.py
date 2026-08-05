@@ -1,13 +1,5 @@
 # -*- coding: utf-8 -*-
-"""GitHub katkı verisini çekip assets/contributions.svg üretir.
-
-Veri kaynağı: https://github.com/users/<kullanıcı>/contributions
-Bu uç nokta katkı takvimini token'sız HTML olarak döndürür; günlük kesin sayılar
-<tool-tip> elemanlarında, hücrelere id üzerinden bağlı.
-
-Hiç harici bağımlılık yok — yalnızca standart kütüphane. GitHub Actions'ta
-kurulum gerektirmeden çalışır.
-"""
+"""GitHub katkı verisini çekip assets/contributions.svg üretir."""
 import datetime as dt
 import html as htmllib
 import io
@@ -20,21 +12,26 @@ USER = os.environ.get("GH_USER", "EmrhnHARPUT")
 OUT = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
                    "assets", "contributions.svg")
 
-# ── palet ────────────────────────────────────────────────────────────────
-# Isı haritası SIRALI bir ölçek: tek renk tonu, açıktan koyuya.
-# Aşağıdaki 4 adım dataviz doğrulayıcısından geçti (--ordinal, koyu yüzey #0A1220):
-#   monoton açıklık · komşu ΔL ≥ 0.06 · sönük uç 2.34:1 · ton yayılımı 30°
 RAMP = ["#10557E", "#0B84C8", "#26B9F2", "#7DE9FF"]
-EMPTY = "#14202F"          # katkısız gün — rampanın parçası değil
+EMPTY = "#14202F"
+GLOW = "#CFF7FF"
 SURFACE_A, SURFACE_B = "#0A1220", "#060C18"
 LINE = "#1D3E63"
 INK, INK_DIM, INK_FAINT = "#E4F4FF", "#8FA8C4", "#5B7391"
 ACCENT = "#4DE3FF"
 
+GLOW_EMPTY = 0.05
+GLOW_TOP = 0.96
+GLOW_MARGIN = 0.96
+NEON = "#3FE0FF"
+
+POP = [1.16, 1.26, 1.36, 1.48]
+BLOOM = [0.26, 0.42, 0.58, 0.72]
+HALO = [0.10, 0.17, 0.24, 0.31]
+
 AY = ["Oca", "Şub", "Mar", "Nis", "May", "Haz", "Tem", "Ağu", "Eyl", "Eki", "Kas", "Ara"]
 
 
-# ── veri ─────────────────────────────────────────────────────────────────
 def fetch(user):
     url = f"https://github.com/users/{user}/contributions"
     req = urllib.request.Request(
@@ -45,7 +42,6 @@ def fetch(user):
 
 
 def parse(page):
-    """(tarih, sayı) listesi döndürür — bugüne kadar, tarihe göre artan."""
     by_id = {}
     for m in re.finditer(r"<td\b([^>]*ContributionCalendar-day[^>]*)>", page):
         a = m.group(1)
@@ -70,7 +66,7 @@ def parse(page):
     days = []
     for cid, date_s in by_id.items():
         d = dt.date.fromisoformat(date_s)
-        if d > today:                      # takvim haftayı tamamlamak için ileri gün basar
+        if d > today:
             continue
         days.append((d, counts.get(cid, 0)))
     days.sort()
@@ -78,7 +74,6 @@ def parse(page):
 
 
 def streaks(days):
-    """(guncel, en_uzun, guncel_aralik, uzun_aralik)"""
     best = cur = 0
     best_rng = cur_rng = None
     run_start = None
@@ -92,7 +87,6 @@ def streaks(days):
         else:
             run_start, cur, cur_rng = None, 0, None
 
-    # Bugün henüz katkı yoksa seri dünde bitmiş sayılır (GitHub da böyle sayar).
     if days and days[-1][1] == 0:
         if len(days) >= 2 and days[-2][1] > 0:
             k, i = 0, len(days) - 2
@@ -105,6 +99,78 @@ def streaks(days):
     return cur, best, cur_rng, best_rng
 
 
+def _rgb(h):
+    return tuple(int(h[i:i + 2], 16) for i in (1, 3, 5))
+
+
+def _lum(rgb):
+    f = [v / 255 for v in rgb]
+    f = [x / 12.92 if x <= .04045 else ((x + .055) / 1.055) ** 2.4 for x in f]
+    return .2126 * f[0] + .7152 * f[1] + .0722 * f[2]
+
+
+def _mix_hex(a, b, t):
+    A, B = _rgb(a), _rgb(b)
+    return "#%02X%02X%02X" % tuple(round(A[k] + (B[k] - A[k]) * t) for k in range(3))
+
+
+def glow_alphas():
+    """Her seviye için en yüksek parlama alfası — bir üst seviyenin dinlenme
+    parlaklığını asla geçmeyecek şekilde ikili aramayla türetilir."""
+    base = _rgb(GLOW)
+    rest = [_lum(_rgb(c)) for c in RAMP]
+    out = []
+    for i, c in enumerate(RAMP):
+        if i == len(RAMP) - 1:
+            out.append(GLOW_TOP)
+            break
+        src, cap = _rgb(c), rest[i + 1] * GLOW_MARGIN
+        lo, hi = 0.0, 1.0
+        for _ in range(48):
+            mid = (lo + hi) / 2
+            mixed = tuple(src[k] + (base[k] - src[k]) * mid for k in range(3))
+            if _lum(mixed) < cap:
+                lo = mid
+            else:
+                hi = mid
+        out.append(round(lo, 3))
+    return out
+
+
+def wave_css():
+    """Seviye başına bir keyframe: ışık gelince kutucuk hem büyür hem parlar.
+    Büyüme oranı da katkıya orantılı, böylece boyut veriyi ikinci kez kodlar."""
+    a = glow_alphas()
+    hot = [_mix_hex(RAMP[i], GLOW, a[i]) for i in range(len(RAMP))]
+    css = ["    .c0,.c1,.c2,.c3{transform-box:fill-box;transform-origin:center}"]
+    for i in range(len(RAMP)):
+        css.append(
+            f"    @keyframes w{i}{{0%,100%{{transform:scale(1);fill:{RAMP[i]}}}"
+            f"7%{{transform:scale({POP[i]});fill:{hot[i]}}}"
+            f"22%{{transform:scale(1);fill:{RAMP[i]}}}}}")
+        css.append(f"    .c{i}{{animation:w{i} {SWEEP}s ease-in-out infinite}}")
+        css.append(
+            f"    @keyframes b{i}{{0%,100%{{opacity:0;transform:scale(1)}}"
+            f"7%{{opacity:{BLOOM[i]};transform:scale({POP[i]+0.25:.2f})}}"
+            f"24%{{opacity:0;transform:scale(1)}}}}")
+        css.append(f"    .g{i}{{transform-box:fill-box;transform-origin:center;"
+                   f"animation:b{i} {SWEEP}s ease-in-out infinite}}")
+        css.append(
+            f"    @keyframes h{i}{{0%,100%{{opacity:0;transform:scale(1)}}"
+            f"7%{{opacity:{HALO[i]};transform:scale({POP[i]+0.42:.2f})}}"
+            f"26%{{opacity:0;transform:scale(1)}}}}")
+        css.append(f"    .n{i}{{transform-box:fill-box;transform-origin:center;"
+                   f"animation:h{i} {SWEEP}s ease-in-out infinite}}")
+    css.append(f"    @keyframes we{{0%,100%{{fill:{EMPTY}}}"
+               f"7%{{fill:{_mix_hex(EMPTY, GLOW, GLOW_EMPTY)}}}"
+               f"22%{{fill:{EMPTY}}}}}")
+    css.append(f"    .ce{{animation:we {SWEEP}s ease-in-out infinite}}")
+    css.append("    @media (prefers-reduced-motion:reduce){"
+               ".c0,.c1,.c2,.c3,.ce,.g0,.g1,.g2,.g3,.n0,.n1,.n2,.n3{animation:none}"
+               ".g0,.g1,.g2,.g3,.n0,.n1,.n2,.n3{opacity:0}}")
+    return "\n".join(css), hot
+
+
 def level(n, mx):
     if n <= 0:
         return -1
@@ -114,12 +180,12 @@ def level(n, mx):
     return 0 if q <= .25 else 1 if q <= .5 else 2 if q <= .75 else 3
 
 
-# ── çizim ────────────────────────────────────────────────────────────────
 W = 1200
 PAD = 30
-LBL_W = 38                 # gün adı sütunu
-CELL, GAP = 16, 4          # marklar arası boşluk — ayırıcı çerçeve DEĞİL
+LBL_W = 38
+CELL, GAP = 16, 4
 STEP = CELL + GAP
+SWEEP = 8.5
 
 
 def tr_date(d):
@@ -133,9 +199,8 @@ def build(days):
     peak = max(days, key=lambda x: x[1]) if days else (None, 0)
     aktif = sum(1 for _, n in days if n > 0)
 
-    # ilk sütun pazar olacak şekilde hizala (GitHub takvimi böyle)
     first = days[0][0]
-    lead = (first.weekday() + 1) % 7          # pazar = 0
+    lead = (first.weekday() + 1) % 7
     weeks = (lead + len(days) + 6) // 7
 
     gx, gy = PAD + LBL_W, 96
@@ -158,10 +223,14 @@ def build(days):
             f'<stop offset="1" stop-color="{SURFACE_B}"/></linearGradient>\n'
             '  <pattern id="cscan" width="2" height="3" patternUnits="userSpaceOnUse">'
             '<rect width="2" height="1" fill="#000" opacity=".14"/></pattern>\n'
+            '  <filter id="cneon" x="-160%" y="-160%" width="420%" height="420%">'
+            '<feGaussianBlur stdDeviation="4"/></filter>\n'
+            '  <filter id="cneon2" x="-220%" y="-220%" width="540%" height="540%">'
+            '<feGaussianBlur stdDeviation="6.5"/></filter>\n'
+            "  <style>\n" + wave_css()[0] + "\n  </style>\n"
             "</defs>\n")
     s.write(f'<g clip-path="url(#cc)">\n  <rect width="{W}" height="{H}" fill="url(#cbg)"/>\n')
 
-    # başlık
     s.write(f'  <text x="{PAD}" y="44" fill="{INK}" font-size="19" font-weight="600">'
             f'Katkı Grafiği</text>\n')
     s.write(f'  <text x="{PAD}" y="66" fill="{INK_DIM}" font-size="12.5">'
@@ -169,7 +238,6 @@ def build(days):
     s.write(f'  <text class="m" x="{W-PAD}" y="44" text-anchor="end" fill="{ACCENT}" '
             f'font-size="12">@{USER}</text>\n')
 
-    # ay etiketleri
     seen = set()
     for idx, (d, _n) in enumerate(days):
         col = (lead + idx) // 7
@@ -178,21 +246,37 @@ def build(days):
             s.write(f'    <text class="m" x="{gx + col*STEP}" y="{gy - 8}" '
                     f'fill="{INK_FAINT}" font-size="10.5">{AY[d.month-1]}</text>\n')
 
-    # gün adları — üç tanesi yeter, hepsi kalabalık yapar
     for r, nm in ((1, "Pzt"), (3, "Çrş"), (5, "Cum")):
         s.write(f'  <text class="m" x="{PAD}" y="{gy + r*STEP + CELL - 4}" '
                 f'fill="{INK_FAINT}" font-size="10.5">{nm}</text>\n')
 
-    # ısı haritası — hücrelerde stroke YOK, ayrım GAP ile
+    hot = wave_css()[1]
+    cells = []
     for idx, (d, n) in enumerate(days):
         p = lead + idx
         col, row = p // 7, p % 7
-        lv = level(n, mx)
-        fill = EMPTY if lv < 0 else RAMP[lv]
-        s.write(f'    <rect x="{gx + col*STEP}" y="{gy + row*STEP}" width="{CELL}" '
-                f'height="{CELL}" rx="3" fill="{fill}"/>\n')
+        cells.append((gx + col * STEP, gy + row * STEP, level(n, mx),
+                      SWEEP * col / max(weeks, 1)))
 
-    # ölçek göstergesi — sıralı skalada zorunlu
+    for cx, cy, lv, dly in cells:
+        if lv < 0:
+            continue
+        s.write(f'    <rect class="n{lv}" x="{cx}" y="{cy}" width="{CELL}" height="{CELL}" '
+                f'rx="5" fill="{NEON}" opacity="0" filter="url(#cneon2)" '
+                f'style="animation-delay:{dly:.3f}s"/>\n')
+    for cx, cy, lv, dly in cells:
+        if lv < 0:
+            continue
+        s.write(f'    <rect class="g{lv}" x="{cx}" y="{cy}" width="{CELL}" height="{CELL}" '
+                f'rx="4" fill="{NEON}" opacity="0" filter="url(#cneon)" '
+                f'style="animation-delay:{dly:.3f}s"/>\n')
+
+    for cx, cy, lv, dly in cells:
+        cls = "ce" if lv < 0 else f"c{lv}"
+        fill = EMPTY if lv < 0 else RAMP[lv]
+        s.write(f'    <rect class="{cls}" x="{cx}" y="{cy}" width="{CELL}" height="{CELL}" '
+                f'rx="3" fill="{fill}" style="animation-delay:{dly:.3f}s"/>\n')
+
     ly = gy + grid_h + 26
     lx = W - PAD - (5 * (CELL + 4) + 78)
     s.write(f'  <text x="{lx}" y="{ly + CELL - 4}" fill="{INK_FAINT}" font-size="11">Az</text>\n')
@@ -202,7 +286,6 @@ def build(days):
     s.write(f'  <text x="{lx + 24 + 5*(CELL+4) + 6}" y="{ly + CELL - 4}" fill="{INK_FAINT}" '
             f'font-size="11">Çok</text>\n')
 
-    # sayı kutuları — değerler metin renginde, seri renginde DEĞİL
     ty = ly + 44
     tiles = [
         (f"{total:,}".replace(",", "."), "katkı (son 1 yıl)"),
