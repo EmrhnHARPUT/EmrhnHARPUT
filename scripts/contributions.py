@@ -210,7 +210,7 @@ def build(days):
     s = io.StringIO()
     aria = (f"{USER} katkı grafiği: son bir yılda {total} katkı, "
             f"güncel seri {cur} gün, en uzun seri {best} gün.")
-    H = gy + grid_h + 128
+    H = gy + grid_h + 66
 
     s.write(f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" '
             f'width="{W}" height="{H}" role="img" aria-label="{aria}">\n')
@@ -286,33 +286,129 @@ def build(days):
     s.write(f'  <text x="{lx + 24 + 5*(CELL+4) + 6}" y="{ly + CELL - 4}" fill="{INK_FAINT}" '
             f'font-size="11">Çok</text>\n')
 
-    ty = ly + 44
-    tiles = [
-        (f"{total:,}".replace(",", "."), "katkı (son 1 yıl)"),
-        (f"{cur}", "günlük güncel seri"),
-        (f"{best}", "günlük en uzun seri"),
-        (f"{aktif}", "aktif gün"),
-    ]
-    tw = (W - 2 * PAD - 3 * 16) / 4
-    for i, (val, lab) in enumerate(tiles):
-        x = PAD + i * (tw + 16)
-        s.write(f'    <rect x="{x:.0f}" y="{ty}" width="{tw:.0f}" height="62" rx="9" '
-                f'fill="#0E1A2B" stroke="{LINE}"/>\n')
-        s.write(f'    <rect x="{x:.0f}" y="{ty}" width="3" height="62" rx="1.5" fill="{ACCENT}" '
-                f'opacity=".8"/>\n')
-        s.write(f'    <text x="{x+18:.0f}" y="{ty+30}" fill="{INK}" font-size="22" '
-                f'font-weight="700">{val}</text>\n')
-        s.write(f'    <text x="{x+18:.0f}" y="{ty+50}" fill="{INK_DIM}" font-size="12">{lab}</text>\n')
-
-    if peak[0]:
-        s.write(f'  <text x="{PAD}" y="{ly + CELL - 4}" fill="{INK_FAINT}" font-size="11.5">'
-                f'En yoğun gün: {tr_date(peak[0])} — {peak[1]} katkı</text>\n')
-
     s.write(f'  <rect width="{W}" height="{H}" fill="url(#cscan)"/>\n')
     s.write("</g>\n</svg>\n")
 
     return s.getvalue(), dict(total=total, cur=cur, best=best, mx=mx,
                               aktif=aktif, peak=peak, gun=len(days))
+
+
+def build_activity(days, n=30):
+    d = days[-n:]
+    mx = max((v for _, v in d), default=0)
+    ymax = max(4, -(-mx // 4) * 4)
+    total = sum(v for _, v in d)
+
+    W2, H2 = 1200, 352
+    px0, px1 = PAD + 52, W2 - PAD
+    py0, py1 = 116, 296
+    pw, ph = px1 - px0, py1 - py0
+    step = pw / max(len(d) - 1, 1)
+
+    pts = [(px0 + i * step, py1 - (v / ymax) * ph) for i, (_dt, v) in enumerate(d)]
+
+    def spline(p):
+        out = [f"M{p[0][0]:.1f},{p[0][1]:.1f}"]
+        for i in range(len(p) - 1):
+            p0, p1 = p[max(i - 1, 0)], p[i]
+            p2, p3 = p[i + 1], p[min(i + 2, len(p) - 1)]
+            c1 = (p1[0] + (p2[0] - p0[0]) / 6, p1[1] + (p2[1] - p0[1]) / 6)
+            c2 = (p2[0] - (p3[0] - p1[0]) / 6, p2[1] - (p3[1] - p1[1]) / 6)
+            c1 = (c1[0], min(max(c1[1], py0), py1))
+            c2 = (c2[0], min(max(c2[1], py0), py1))
+            out.append(f"C{c1[0]:.1f},{c1[1]:.1f} {c2[0]:.1f},{c2[1]:.1f} "
+                       f"{p2[0]:.1f},{p2[1]:.1f}")
+        return " ".join(out)
+
+    line = spline(pts)
+    area = line + f" L{pts[-1][0]:.1f},{py1} L{pts[0][0]:.1f},{py1} Z"
+    hi = max(range(len(d)), key=lambda i: d[i][1])
+
+    s = io.StringIO()
+    aria = (f"{USER} son {len(d)} günlük aktivite: toplam {total} katkı, "
+            f"en yüksek gün {d[hi][1]}.")
+    s.write(f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W2} {H2}" '
+            f'width="{W2}" height="{H2}" role="img" aria-label="{aria}">\n')
+    s.write('<style>text{font-family:"Segoe UI",Roboto,Ubuntu,Arial,sans-serif}\n'
+            '.m{font-family:"Consolas","SF Mono",Menlo,monospace}\n'
+            '@keyframes ap{0%,100%{opacity:.35;r:5}50%{opacity:1;r:9}}\n'
+            '.ap{animation:ap 2.6s ease-in-out infinite}\n'
+            '@media (prefers-reduced-motion:reduce){.ap{animation:none}}</style>\n')
+    s.write("<defs>\n"
+            f'  <clipPath id="ac"><rect width="{W2}" height="{H2}" rx="14"/></clipPath>\n'
+            f'  <linearGradient id="abg" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="{H2}">'
+            f'<stop offset="0" stop-color="{SURFACE_A}"/>'
+            f'<stop offset="1" stop-color="{SURFACE_B}"/></linearGradient>\n'
+            f'  <linearGradient id="aar" gradientUnits="userSpaceOnUse" x1="0" y1="{py0}" x2="0" y2="{py1}">'
+            f'<stop offset="0" stop-color="{ACCENT}" stop-opacity=".50"/>'
+            f'<stop offset="1" stop-color="{ACCENT}" stop-opacity="0"/></linearGradient>\n'
+            '  <filter id="aglow" x="-30%" y="-80%" width="160%" height="300%">'
+            '<feGaussianBlur stdDeviation="3.5"/></filter>\n'
+            '  <pattern id="ascan" width="2" height="3" patternUnits="userSpaceOnUse">'
+            '<rect width="2" height="1" fill="#000" opacity=".14"/></pattern>\n'
+            "</defs>\n")
+    s.write(f'<g clip-path="url(#ac)">\n  <rect width="{W2}" height="{H2}" fill="url(#abg)"/>\n')
+    s.write(f'  <text x="{PAD}" y="46" fill="{INK}" font-size="22" font-weight="600">Aktivite</text>\n')
+    s.write(f'  <text x="{PAD}" y="72" fill="{INK_DIM}" font-size="14">'
+            f'Son {len(d)} gün — {tr_date(d[0][0])} / {tr_date(d[-1][0])} · '
+            f'toplam {total} katkı · günlük ort. {total/max(len(d),1):.1f} · '
+            f'en yüksek {d[hi][1]}</text>\n')
+
+    for i, (dt_, _v) in enumerate(d):
+        if dt_.weekday() >= 5:
+            s.write(f'  <rect x="{pts[i][0]-step/2:.1f}" y="{py0}" width="{step:.1f}" '
+                    f'height="{ph}" fill="{ACCENT}" opacity=".055"/>\n')
+
+    xticks = list(range(0, len(d), 6))
+    for i in range(len(d)):
+        op = ".40" if i in xticks else ".18"
+        s.write(f'  <line x1="{pts[i][0]:.1f}" y1="{py0}" x2="{pts[i][0]:.1f}" y2="{py1}" '
+                f'stroke="{LINE}" stroke-width="1" opacity="{op}"/>\n')
+
+    for k in range(5):
+        v = ymax * k / 4
+        y = py1 - (v / ymax) * ph
+        s.write(f'  <line x1="{px0}" y1="{y:.1f}" x2="{px1}" y2="{y:.1f}" stroke="{LINE}" '
+                f'stroke-width="1" opacity="{"1" if k == 0 else ".55"}"/>\n')
+        s.write(f'  <text class="m" x="{px0-14}" y="{y+4:.1f}" text-anchor="end" '
+                f'fill="{INK_FAINT}" font-size="13">{int(v)}</text>\n')
+
+    s.write(f'  <path d="{area}" fill="url(#aar)"/>\n')
+
+    ort = total / max(len(d), 1)
+    oy = py1 - (ort / ymax) * ph
+    s.write(f'  <line x1="{px0}" y1="{oy:.1f}" x2="{px1}" y2="{oy:.1f}" stroke="{INK_DIM}" '
+            f'stroke-width="1" stroke-dasharray="6 5" opacity=".75"/>\n')
+    s.write(f'  <text class="m" x="{px1-4}" y="{oy-7:.1f}" text-anchor="end" '
+            f'fill="{INK_DIM}" font-size="12" opacity=".9">ort.</text>\n')
+
+    s.write(f'  <path d="{line}" fill="none" stroke="{ACCENT}" stroke-width="7" '
+            f'opacity=".32" filter="url(#aglow)" stroke-linejoin="round" stroke-linecap="round"/>\n')
+    s.write(f'  <path d="{line}" fill="none" stroke="{ACCENT}" stroke-width="3.2" '
+            f'stroke-linejoin="round" stroke-linecap="round"/>\n')
+
+    for i, (x, y) in enumerate(pts[:-1]):
+        v = d[i][1]
+        if v == 0:
+            s.write(f'    <circle cx="{x:.1f}" cy="{y:.1f}" r="2.4" fill="{SURFACE_A}" '
+                    f'stroke="{LINE}" stroke-width="1.8"/>\n')
+        else:
+            r = 3.0 + 1.9 * (v / max(mx, 1))
+            s.write(f'    <circle cx="{x:.1f}" cy="{y:.1f}" r="{r:.1f}" fill="{SURFACE_A}" '
+                    f'stroke="{ACCENT}" stroke-width="2.1"/>\n')
+
+    for i in xticks:
+        s.write(f'    <text class="m" x="{pts[i][0]:.1f}" y="{py1+28}" text-anchor="middle" '
+                f'fill="{INK_FAINT}" font-size="13">{d[i][0].day} {AY[d[i][0].month-1]}</text>\n')
+
+    lx, ly2 = pts[-1]
+    s.write(f'  <circle class="ap" cx="{lx:.1f}" cy="{ly2:.1f}" r="5" fill="{ACCENT}" '
+            f'filter="url(#aglow)"/>\n')
+    s.write(f'  <circle cx="{lx:.1f}" cy="{ly2:.1f}" r="3.4" fill="{INK}"/>\n')
+
+    s.write(f'  <rect width="{W2}" height="{H2}" fill="url(#ascan)"/>\n')
+    s.write("</g>\n</svg>\n")
+    return s.getvalue()
 
 
 def main():
@@ -325,6 +421,10 @@ def main():
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     with io.open(OUT, "w", encoding="utf-8") as f:
         f.write(svg)
+    act = build_activity(days)
+    with io.open(os.path.join(os.path.dirname(OUT), "activity.svg"), "w", encoding="utf-8") as f:
+        f.write(act)
+    print(f"aktivite      : assets/activity.svg  ({len(act):,} bayt)")
     print(f"kullanici     : {USER}")
     print(f"gun sayisi    : {st['gun']}  ({days[0][0]} .. {days[-1][0]})")
     print(f"toplam katki  : {st['total']}")
