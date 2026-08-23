@@ -1,71 +1,53 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 96" width="1200" height="96" role="img" aria-label="Emirhan HARPUT">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 150" width="1600" height="150" role="img" aria-label="Emirhan HARPUT">
 <defs>
-  <clipPath id="cl"><rect width="1200" height="96" rx="16"/></clipPath>
-  <clipPath id="ground"><rect y="2" width="1200" height="94"/></clipPath>
-  <clipPath id="sky"><rect width="1200" height="2"/></clipPath>
-  <linearGradient id="skyg" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="2"><stop offset="0" stop-color="#03060F"/><stop offset=".55" stop-color="#0A0A22"/><stop offset="1" stop-color="#241033"/></linearGradient>
-  <linearGradient id="grd" gradientUnits="userSpaceOnUse" x1="0" y1="2" x2="0" y2="96"><stop offset="0" stop-color="#160B26"/><stop offset="1" stop-color="#02040C"/></linearGradient>
-  <filter id="bloom" x="-70%" y="-300%" width="240%" height="700%"><feGaussianBlur stdDeviation="12"/></filter>
-  <filter id="soft" x="-60%" y="-240%" width="220%" height="580%"><feGaussianBlur stdDeviation="4"/></filter>
-  <filter id="tiny" x="-60%" y="-240%" width="220%" height="580%"><feGaussianBlur stdDeviation="1.2"/></filter>
-  <pattern id="scan" width="2" height="3" patternUnits="userSpaceOnUse"><rect width="2" height="1" fill="#000000" opacity=".20"/></pattern>
-  <linearGradient id="gfade" gradientUnits="userSpaceOnUse" x1="0" y1="2" x2="0" y2="96"><stop offset="0" stop-color="#0072B8" stop-opacity="0"/><stop offset=".18" stop-color="#0072B8" stop-opacity=".40"/><stop offset=".62" stop-color="#4DE3FF" stop-opacity=".78"/><stop offset="1" stop-color="#4DE3FF" stop-opacity=".95"/></linearGradient>
-  <linearGradient id="refl" gradientUnits="userSpaceOnUse" x1="0" y1="2" x2="0" y2="96"><stop offset="0" stop-color="#FF5C8A" stop-opacity=".42"/><stop offset="1" stop-color="#FF5C8A" stop-opacity="0"/></linearGradient>
+  <clipPath id="fc"><rect width="1600" height="150" rx="21"/></clipPath>
+  <linearGradient id="fbg" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1600" y2="0">
+    <stop offset="0" stop-color="#040404"/>
+    <stop offset=".5" stop-color="#0C0C0E"/>
+    <stop offset="1" stop-color="#040404"/>
+  </linearGradient>
+  <radialGradient id="fglow" cx="50%" cy="50%" r="60%">
+    <stop offset="0" stop-color="#FFFFFF" stop-opacity=".05"/>
+    <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="frule" gradientUnits="userSpaceOnUse" x1="200" y1="0" x2="1400" y2="0">
+    <stop offset="0" stop-color="#8A8A8E" stop-opacity="0"/>
+    <stop offset=".5" stop-color="#AAA9AA" stop-opacity=".85"/>
+    <stop offset="1" stop-color="#8A8A8E" stop-opacity="0"/>
+  </linearGradient>
+  <filter id="fgl" x="-120%" y="-400%" width="340%" height="900%">
+    <feGaussianBlur stdDeviation="4"/>
+  </filter>
   <style>
-    @keyframes tw{0%,100%{opacity:.2}50%{opacity:.95}}
-    @keyframes hb{0%,100%{opacity:.62}50%{opacity:1}}
-    .tw{animation:tw 4.4s ease-in-out infinite}
-    .hb{animation:hb 7s ease-in-out infinite}
+    @keyframes fpulse{0%,100%{opacity:.55}50%{opacity:1}}
+    .fp{animation:fpulse 5s ease-in-out infinite}
     @media (prefers-reduced-motion:reduce){*{animation:none!important}}
   </style>
 </defs>
-<g clip-path="url(#cl)">
-  <rect width="1200" height="2" fill="url(#skyg)"/>
-  <rect y="2" width="1200" height="94" fill="url(#grd)"/>
-  <ellipse class="hb" cx="600" cy="2" rx="504" ry="16" fill="#9BF0FF" opacity=".30" filter="url(#bloom)"/>
-  <g clip-path="url(#ground)" fill="none" stroke-linecap="butt">
-    <line x1="600" y1="2" x2="-870" y2="120" stroke="url(#gfade)" stroke-width="1.25"/>
-    <line x1="600" y1="2" x2="-660" y2="120" stroke="url(#gfade)" stroke-width="1.25"/>
-    <line x1="600" y1="2" x2="-450" y2="120" stroke="url(#gfade)" stroke-width="1.25"/>
-    <line x1="600" y1="2" x2="-240" y2="120" stroke="url(#gfade)" stroke-width="1.25"/>
-    <line x1="600" y1="2" x2="-30" y2="120" stroke="url(#gfade)" stroke-width="1.25"/>
-    <line x1="600" y1="2" x2="180" y2="120" stroke="url(#gfade)" stroke-width="1.25"/>
-    <line x1="600" y1="2" x2="390" y2="120" stroke="url(#gfade)" stroke-width="1.25"/>
-    <line x1="600" y1="2" x2="600" y2="120" stroke="url(#gfade)" stroke-width="1.25"/>
-    <line x1="600" y1="2" x2="810" y2="120" stroke="url(#gfade)" stroke-width="1.25"/>
-    <line x1="600" y1="2" x2="1020" y2="120" stroke="url(#gfade)" stroke-width="1.25"/>
-    <line x1="600" y1="2" x2="1230" y2="120" stroke="url(#gfade)" stroke-width="1.25"/>
-    <line x1="600" y1="2" x2="1440" y2="120" stroke="url(#gfade)" stroke-width="1.25"/>
-    <line x1="600" y1="2" x2="1650" y2="120" stroke="url(#gfade)" stroke-width="1.25"/>
-    <line x1="600" y1="2" x2="1860" y2="120" stroke="url(#gfade)" stroke-width="1.25"/>
-    <line x1="600" y1="2" x2="2070" y2="120" stroke="url(#gfade)" stroke-width="1.25"/>
-    <line x1="-40" x2="1240" y1="2" y2="2" stroke="url(#gfade)">
-      <animate attributeName="y1" values="12.44;13.24;14.09;15.01;16.00;17.06;18.21;19.44;20.77;22.19;23.73;25.38;27.15;29.06;31.12;33.33;35.71;38.28;41.03;44.00;47.19;50.62;54.32;58.30;62.57;67.18;72.13;77.46;83.19;89.36;96.00" keyTimes="0.0000;0.0333;0.0667;0.1000;0.1333;0.1667;0.2000;0.2333;0.2667;0.3000;0.3333;0.3667;0.4000;0.4333;0.4667;0.5000;0.5333;0.5667;0.6000;0.6333;0.6667;0.7000;0.7333;0.7667;0.8000;0.8333;0.8667;0.9000;0.9333;0.9667;1.0000" dur="3.6s" begin="0.0s" repeatCount="indefinite"/>
-      <animate attributeName="y2" values="12.44;13.24;14.09;15.01;16.00;17.06;18.21;19.44;20.77;22.19;23.73;25.38;27.15;29.06;31.12;33.33;35.71;38.28;41.03;44.00;47.19;50.62;54.32;58.30;62.57;67.18;72.13;77.46;83.19;89.36;96.00" keyTimes="0.0000;0.0333;0.0667;0.1000;0.1333;0.1667;0.2000;0.2333;0.2667;0.3000;0.3333;0.3667;0.4000;0.4333;0.4667;0.5000;0.5333;0.5667;0.6000;0.6333;0.6667;0.7000;0.7333;0.7667;0.8000;0.8333;0.8667;0.9000;0.9333;0.9667;1.0000" dur="3.6s" begin="0.0s" repeatCount="indefinite"/>
-      <animate attributeName="stroke-width" values="1.06;1.09;1.13;1.17;1.21;1.26;1.31;1.36;1.42;1.47;1.54;1.60;1.67;1.75;1.83;1.91;2.01;2.10;2.21;2.32;2.43;2.56;2.69;2.83;2.98;3.14;3.31;3.49;3.68;3.88;4.10" keyTimes="0.0000;0.0333;0.0667;0.1000;0.1333;0.1667;0.2000;0.2333;0.2667;0.3000;0.3333;0.3667;0.4000;0.4333;0.4667;0.5000;0.5333;0.5667;0.6000;0.6333;0.6667;0.7000;0.7333;0.7667;0.8000;0.8333;0.8667;0.9000;0.9333;0.9667;1.0000" dur="3.6s" begin="0.0s" repeatCount="indefinite"/>
-    </line>
-    <line x1="-40" x2="1240" y1="2" y2="2" stroke="url(#gfade)">
-      <animate attributeName="y1" values="12.44;13.24;14.09;15.01;16.00;17.06;18.21;19.44;20.77;22.19;23.73;25.38;27.15;29.06;31.12;33.33;35.71;38.28;41.03;44.00;47.19;50.62;54.32;58.30;62.57;67.18;72.13;77.46;83.19;89.36;96.00" keyTimes="0.0000;0.0333;0.0667;0.1000;0.1333;0.1667;0.2000;0.2333;0.2667;0.3000;0.3333;0.3667;0.4000;0.4333;0.4667;0.5000;0.5333;0.5667;0.6000;0.6333;0.6667;0.7000;0.7333;0.7667;0.8000;0.8333;0.8667;0.9000;0.9333;0.9667;1.0000" dur="3.6s" begin="-0.72s" repeatCount="indefinite"/>
-      <animate attributeName="y2" values="12.44;13.24;14.09;15.01;16.00;17.06;18.21;19.44;20.77;22.19;23.73;25.38;27.15;29.06;31.12;33.33;35.71;38.28;41.03;44.00;47.19;50.62;54.32;58.30;62.57;67.18;72.13;77.46;83.19;89.36;96.00" keyTimes="0.0000;0.0333;0.0667;0.1000;0.1333;0.1667;0.2000;0.2333;0.2667;0.3000;0.3333;0.3667;0.4000;0.4333;0.4667;0.5000;0.5333;0.5667;0.6000;0.6333;0.6667;0.7000;0.7333;0.7667;0.8000;0.8333;0.8667;0.9000;0.9333;0.9667;1.0000" dur="3.6s" begin="-0.72s" repeatCount="indefinite"/>
-      <animate attributeName="stroke-width" values="1.06;1.09;1.13;1.17;1.21;1.26;1.31;1.36;1.42;1.47;1.54;1.60;1.67;1.75;1.83;1.91;2.01;2.10;2.21;2.32;2.43;2.56;2.69;2.83;2.98;3.14;3.31;3.49;3.68;3.88;4.10" keyTimes="0.0000;0.0333;0.0667;0.1000;0.1333;0.1667;0.2000;0.2333;0.2667;0.3000;0.3333;0.3667;0.4000;0.4333;0.4667;0.5000;0.5333;0.5667;0.6000;0.6333;0.6667;0.7000;0.7333;0.7667;0.8000;0.8333;0.8667;0.9000;0.9333;0.9667;1.0000" dur="3.6s" begin="-0.72s" repeatCount="indefinite"/>
-    </line>
-    <line x1="-40" x2="1240" y1="2" y2="2" stroke="url(#gfade)">
-      <animate attributeName="y1" values="12.44;13.24;14.09;15.01;16.00;17.06;18.21;19.44;20.77;22.19;23.73;25.38;27.15;29.06;31.12;33.33;35.71;38.28;41.03;44.00;47.19;50.62;54.32;58.30;62.57;67.18;72.13;77.46;83.19;89.36;96.00" keyTimes="0.0000;0.0333;0.0667;0.1000;0.1333;0.1667;0.2000;0.2333;0.2667;0.3000;0.3333;0.3667;0.4000;0.4333;0.4667;0.5000;0.5333;0.5667;0.6000;0.6333;0.6667;0.7000;0.7333;0.7667;0.8000;0.8333;0.8667;0.9000;0.9333;0.9667;1.0000" dur="3.6s" begin="-1.44s" repeatCount="indefinite"/>
-      <animate attributeName="y2" values="12.44;13.24;14.09;15.01;16.00;17.06;18.21;19.44;20.77;22.19;23.73;25.38;27.15;29.06;31.12;33.33;35.71;38.28;41.03;44.00;47.19;50.62;54.32;58.30;62.57;67.18;72.13;77.46;83.19;89.36;96.00" keyTimes="0.0000;0.0333;0.0667;0.1000;0.1333;0.1667;0.2000;0.2333;0.2667;0.3000;0.3333;0.3667;0.4000;0.4333;0.4667;0.5000;0.5333;0.5667;0.6000;0.6333;0.6667;0.7000;0.7333;0.7667;0.8000;0.8333;0.8667;0.9000;0.9333;0.9667;1.0000" dur="3.6s" begin="-1.44s" repeatCount="indefinite"/>
-      <animate attributeName="stroke-width" values="1.06;1.09;1.13;1.17;1.21;1.26;1.31;1.36;1.42;1.47;1.54;1.60;1.67;1.75;1.83;1.91;2.01;2.10;2.21;2.32;2.43;2.56;2.69;2.83;2.98;3.14;3.31;3.49;3.68;3.88;4.10" keyTimes="0.0000;0.0333;0.0667;0.1000;0.1333;0.1667;0.2000;0.2333;0.2667;0.3000;0.3333;0.3667;0.4000;0.4333;0.4667;0.5000;0.5333;0.5667;0.6000;0.6333;0.6667;0.7000;0.7333;0.7667;0.8000;0.8333;0.8667;0.9000;0.9333;0.9667;1.0000" dur="3.6s" begin="-1.44s" repeatCount="indefinite"/>
-    </line>
-    <line x1="-40" x2="1240" y1="2" y2="2" stroke="url(#gfade)">
-      <animate attributeName="y1" values="12.44;13.24;14.09;15.01;16.00;17.06;18.21;19.44;20.77;22.19;23.73;25.38;27.15;29.06;31.12;33.33;35.71;38.28;41.03;44.00;47.19;50.62;54.32;58.30;62.57;67.18;72.13;77.46;83.19;89.36;96.00" keyTimes="0.0000;0.0333;0.0667;0.1000;0.1333;0.1667;0.2000;0.2333;0.2667;0.3000;0.3333;0.3667;0.4000;0.4333;0.4667;0.5000;0.5333;0.5667;0.6000;0.6333;0.6667;0.7000;0.7333;0.7667;0.8000;0.8333;0.8667;0.9000;0.9333;0.9667;1.0000" dur="3.6s" begin="-2.16s" repeatCount="indefinite"/>
-      <animate attributeName="y2" values="12.44;13.24;14.09;15.01;16.00;17.06;18.21;19.44;20.77;22.19;23.73;25.38;27.15;29.06;31.12;33.33;35.71;38.28;41.03;44.00;47.19;50.62;54.32;58.30;62.57;67.18;72.13;77.46;83.19;89.36;96.00" keyTimes="0.0000;0.0333;0.0667;0.1000;0.1333;0.1667;0.2000;0.2333;0.2667;0.3000;0.3333;0.3667;0.4000;0.4333;0.4667;0.5000;0.5333;0.5667;0.6000;0.6333;0.6667;0.7000;0.7333;0.7667;0.8000;0.8333;0.8667;0.9000;0.9333;0.9667;1.0000" dur="3.6s" begin="-2.16s" repeatCount="indefinite"/>
-      <animate attributeName="stroke-width" values="1.06;1.09;1.13;1.17;1.21;1.26;1.31;1.36;1.42;1.47;1.54;1.60;1.67;1.75;1.83;1.91;2.01;2.10;2.21;2.32;2.43;2.56;2.69;2.83;2.98;3.14;3.31;3.49;3.68;3.88;4.10" keyTimes="0.0000;0.0333;0.0667;0.1000;0.1333;0.1667;0.2000;0.2333;0.2667;0.3000;0.3333;0.3667;0.4000;0.4333;0.4667;0.5000;0.5333;0.5667;0.6000;0.6333;0.6667;0.7000;0.7333;0.7667;0.8000;0.8333;0.8667;0.9000;0.9333;0.9667;1.0000" dur="3.6s" begin="-2.16s" repeatCount="indefinite"/>
-    </line>
-    <line x1="-40" x2="1240" y1="2" y2="2" stroke="url(#gfade)">
-      <animate attributeName="y1" values="12.44;13.24;14.09;15.01;16.00;17.06;18.21;19.44;20.77;22.19;23.73;25.38;27.15;29.06;31.12;33.33;35.71;38.28;41.03;44.00;47.19;50.62;54.32;58.30;62.57;67.18;72.13;77.46;83.19;89.36;96.00" keyTimes="0.0000;0.0333;0.0667;0.1000;0.1333;0.1667;0.2000;0.2333;0.2667;0.3000;0.3333;0.3667;0.4000;0.4333;0.4667;0.5000;0.5333;0.5667;0.6000;0.6333;0.6667;0.7000;0.7333;0.7667;0.8000;0.8333;0.8667;0.9000;0.9333;0.9667;1.0000" dur="3.6s" begin="-2.88s" repeatCount="indefinite"/>
-      <animate attributeName="y2" values="12.44;13.24;14.09;15.01;16.00;17.06;18.21;19.44;20.77;22.19;23.73;25.38;27.15;29.06;31.12;33.33;35.71;38.28;41.03;44.00;47.19;50.62;54.32;58.30;62.57;67.18;72.13;77.46;83.19;89.36;96.00" keyTimes="0.0000;0.0333;0.0667;0.1000;0.1333;0.1667;0.2000;0.2333;0.2667;0.3000;0.3333;0.3667;0.4000;0.4333;0.4667;0.5000;0.5333;0.5667;0.6000;0.6333;0.6667;0.7000;0.7333;0.7667;0.8000;0.8333;0.8667;0.9000;0.9333;0.9667;1.0000" dur="3.6s" begin="-2.88s" repeatCount="indefinite"/>
-      <animate attributeName="stroke-width" values="1.06;1.09;1.13;1.17;1.21;1.26;1.31;1.36;1.42;1.47;1.54;1.60;1.67;1.75;1.83;1.91;2.01;2.10;2.21;2.32;2.43;2.56;2.69;2.83;2.98;3.14;3.31;3.49;3.68;3.88;4.10" keyTimes="0.0000;0.0333;0.0667;0.1000;0.1333;0.1667;0.2000;0.2333;0.2667;0.3000;0.3333;0.3667;0.4000;0.4333;0.4667;0.5000;0.5333;0.5667;0.6000;0.6333;0.6667;0.7000;0.7333;0.7667;0.8000;0.8333;0.8667;0.9000;0.9333;0.9667;1.0000" dur="3.6s" begin="-2.88s" repeatCount="indefinite"/>
-    </line>
+<g clip-path="url(#fc)">
+  <rect width="1600" height="150" fill="url(#fbg)"/>
+  <rect width="1600" height="150" fill="url(#fglow)"/>
+
+  <g fill="none" stroke="#C70202" stroke-width="2.4" opacity=".9" filter="url(#fgl)">
+    <path d="M92,26 L30,26 L30,88"/>
+    <path d="M1508,26 L1570,26 L1570,88"/>
+    <path d="M92,124 L30,124 L30,62"/>
+    <path d="M1508,124 L1570,124 L1570,62"/>
   </g>
-  <line x1="0" y1="2" x2="1200" y2="2" stroke="#9BF0FF" stroke-width="1.6" opacity=".9" filter="url(#tiny)"/>
-  <rect width="1200" height="96" fill="url(#scan)"/>
+
+  <line x1="200" y1="75" x2="1400" y2="75" stroke="url(#frule)" stroke-width="1.2"/>
+
+  <line x1="200" y1="75" x2="1400" y2="75" stroke="#E11414" stroke-width="2.6"
+        stroke-dasharray="150 1200" filter="url(#fgl)" opacity=".95">
+    <animate attributeName="stroke-dashoffset" values="1350;0" dur="6s" repeatCount="indefinite"/>
+  </line>
+
+  <g stroke="#AAA9AA" stroke-width="1.4" opacity=".55">
+    <line x1="620" y1="52" x2="620" y2="98"/>
+    <line x1="980" y1="52" x2="980" y2="98"/>
+  </g>
+
+  <circle class="fp" cx="800" cy="75" r="4" fill="#C70202" filter="url(#fgl)"/>
+  <circle cx="800" cy="75" r="2.2" fill="#FFFFFF"/>
 </g>
 </svg>

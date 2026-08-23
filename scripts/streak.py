@@ -18,14 +18,14 @@ USER = os.environ.get("GH_USER", "EmrhnHARPUT")
 OUT = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
                    "assets", "streak.svg")
 
-BG = "#071020"
-NUM = "#D6F5FF"
-LABEL = "#8AA6C0"
-DATES = "#64748B"
-RING = "#00C8FF"
-FIRE = "#4DE3FF"
-CUR_LABEL = "#00C8FF"
-DIVIDER = "#22374F"
+BG = "#08080A"
+NUM = "#FFFFFF"
+LABEL = "#B9B9BC"
+DATES = "#7A7A7E"
+RING = "#C70202"
+FIRE = "#E11414"
+CUR_LABEL = "#E11414"
+DIVIDER = "#2E2E33"
 
 MON = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
        "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
