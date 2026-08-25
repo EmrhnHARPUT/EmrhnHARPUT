@@ -34,6 +34,3 @@
   <br/><br/>
 </div>
 
----
-
-<img src="https://raw.githubusercontent.com/EmrhnHARPUT/EmrhnHARPUT/main/assets/footer.svg?v=3" width="100%" alt=""/>
