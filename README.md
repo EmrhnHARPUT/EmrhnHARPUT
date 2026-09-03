@@ -30,7 +30,5 @@
   <img src="https://raw.githubusercontent.com/EmrhnHARPUT/EmrhnHARPUT/main/assets/streak.svg" width="44%" alt="Katkı Serisi" />
   <img src="https://github-readme-stats-fast.vercel.app/api?username=EmrhnHARPUT&show_icons=true&bg_color=08080A&title_color=E11414&icon_color=C70202&text_color=B9B9BC&hide_border=true" width="44%" alt="Genel İstatistikler" />
   <br/><br/>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=EmrhnHARPUT&bg_color=08080A&color=E11414&line=C70202&point=FFFFFF&area=true&area_color=C70202&hide_border=true&radius=14" width="100%" alt="Aktivite Grafiği" />
-  <br/><br/>
 </div>
 
