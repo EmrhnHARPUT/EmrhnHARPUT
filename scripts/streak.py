@@ -22,9 +22,9 @@ BG = "#08080A"
 NUM = "#FFFFFF"
 LABEL = "#B9B9BC"
 DATES = "#7A7A7E"
-RING = "#C70202"
-FIRE = "#E11414"
-CUR_LABEL = "#E11414"
+RING = "#2BB3BA"
+FIRE = "#45D6DD"
+CUR_LABEL = "#2BB3BA"
 DIVIDER = "#2E2E33"
 
 MON = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",

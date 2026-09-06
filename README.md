@@ -1,6 +1,6 @@
-<img src="https://raw.githubusercontent.com/EmrhnHARPUT/EmrhnHARPUT/main/assets/header.webp?v=4" width="100%" alt=""/>
+<img src="https://raw.githubusercontent.com/EmrhnHARPUT/EmrhnHARPUT/main/assets/header.webp?v=5" width="100%" alt=""/>
 
-<img src="https://raw.githubusercontent.com/EmrhnHARPUT/EmrhnHARPUT/main/assets/typing_vol2.svg?v=5" alt="Emirhan HARPUT"/>
+<img src="https://raw.githubusercontent.com/EmrhnHARPUT/EmrhnHARPUT/main/assets/typing_vol2.svg?v=6" alt="Emirhan HARPUT"/>
 
 ---
 
@@ -25,10 +25,10 @@
 
 ## GitHub İstatistikleri
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=EmrhnHARPUT&label=Profil+Ziyaretçisi&color=C70202&style=for-the-badge" alt="Profil Ziyaretçisi" />
+  <img src="https://komarev.com/ghpvc/?username=EmrhnHARPUT&label=Profil+Ziyaretçisi&color=2BB3BA&style=for-the-badge" alt="Profil Ziyaretçisi" />
   <br/><br/>
   <img src="https://raw.githubusercontent.com/EmrhnHARPUT/EmrhnHARPUT/main/assets/streak.svg" width="44%" alt="Katkı Serisi" />
-  <img src="https://github-readme-stats-fast.vercel.app/api?username=EmrhnHARPUT&show_icons=true&bg_color=08080A&title_color=E11414&icon_color=C70202&text_color=B9B9BC&hide_border=true" width="44%" alt="Genel İstatistikler" />
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=EmrhnHARPUT&show_icons=true&bg_color=08080A&title_color=2BB3BA&icon_color=45D6DD&text_color=B9B9BC&hide_border=true" width="44%" alt="Genel İstatistikler" />
   <br/><br/>
 </div>
 
