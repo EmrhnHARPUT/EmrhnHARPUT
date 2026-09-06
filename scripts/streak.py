@@ -14,6 +14,8 @@ import re
 import sys
 import urllib.request
 
+import activity
+
 USER = os.environ.get("GH_USER", "EmrhnHARPUT")
 OUT = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
                    "assets", "streak.svg")
@@ -201,6 +203,12 @@ def main():
     print(f"toplam katki : {total}")
     print(f"guncel seri  : {cur}  ({span(c_rng)})")
     print(f"en uzun seri : {best}  ({span(b_rng)})")
+    act = activity.build(days, USER)
+    if act:
+        ap = os.path.join(os.path.dirname(OUT), "activity.svg")
+        with io.open(ap, "w", encoding="utf-8") as f:
+            f.write(act)
+        print(f"aktivite     : assets/activity.svg  ({len(act):,} bayt)")
     print(f"yazildi      : {OUT}  ({len(svg):,} bayt)")
     return 0
 

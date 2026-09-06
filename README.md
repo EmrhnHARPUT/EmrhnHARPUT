@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/EmrhnHARPUT/EmrhnHARPUT/main/assets/header.webp?v=5" width="100%" alt=""/>
+<img src="https://raw.githubusercontent.com/EmrhnHARPUT/EmrhnHARPUT/main/assets/header.webp?v=6" width="100%" alt=""/>
 
 <img src="https://raw.githubusercontent.com/EmrhnHARPUT/EmrhnHARPUT/main/assets/typing_vol2.svg?v=6" alt="Emirhan HARPUT"/>
 
@@ -29,6 +29,8 @@
   <br/><br/>
   <img src="https://raw.githubusercontent.com/EmrhnHARPUT/EmrhnHARPUT/main/assets/streak.svg" width="44%" alt="Katkı Serisi" />
   <img src="https://github-readme-stats-fast.vercel.app/api?username=EmrhnHARPUT&show_icons=true&bg_color=08080A&title_color=2BB3BA&icon_color=45D6DD&text_color=B9B9BC&hide_border=true" width="44%" alt="Genel İstatistikler" />
+  <br/><br/>
+  <img src="https://raw.githubusercontent.com/EmrhnHARPUT/EmrhnHARPUT/main/assets/activity.svg?v=1" width="100%" alt="Aktivite" />
   <br/><br/>
 </div>
 
