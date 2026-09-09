@@ -23,7 +23,7 @@
   
 ---
 
-## GitHub İstatistikleri
+## GitHub İstatistiklerim
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=EmrhnHARPUT&label=Profil+Ziyaretçisi&color=2BB3BA&style=for-the-badge" alt="Profil Ziyaretçisi" />
   <br/><br/>
