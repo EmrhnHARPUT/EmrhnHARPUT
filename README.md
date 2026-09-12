@@ -7,11 +7,10 @@
 ## Hakkımda
 
 * **Trabzon Üniversitesi Yapay Zeka Mühendisliği** öğrencisiyim.
-* Yapay zekanın tüm alt dallarına ilgi duymakla birlikte, asıl odağımı **veri analitiği, model eğitimi ve veri işleme** süreçleri üzerine yoğunlaştırıyorum.
-* Yazılım dünyasındaki teorik bilgilerimi pratikle birleştirmek adına, kurucu ortağı olduğum **İMEJE Mühendislik Topluluğu**'nda aktif olarak rol alıyorum.
+* Yapay zekanın tüm alt dallarına ilgi duymakla birlikte, asıl odağımı **askeri sistemler** üzerine yoğunlaştırıyorum.
+* Yazılım dünyasındaki teorik bilgilerimi pratikle birleştirmek adına, yazılım ekibinin sorumluluğunu üstlendiğim **İMEJE HARP Takımı**'nda aktif olarak rol alıyorum.
 * Ekibimizin **Veri Analisti** olarak, veri odaklı çözümler geliştiriyor ve takım arkadaşlarımla birlikte hackathon gibi rekabetçi platformlarda kendimizi geliştirme motivasyonuyla projeler üretiyoruz.
 * Gelecek vizyonumu, özellikle **askeri teknolojiler ve savunma sanayii** için otomasyon sistemleri ile yapay zeka modelleri tasarlamak üzerine kuruyorum.
-* Karmaşık verilerden anlamlı sonuçlar çıkararak bunları stratejik otomasyon süreçlerine dönüştürmek, profesyonel kariyerimdeki en temel hedefimdir.
 
 ---
 
@@ -23,7 +22,7 @@
   
 ---
 
-## GitHub İstatistiklerim
+## GitHub İstatistikleri
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=EmrhnHARPUT&label=Profil+Ziyaretçisi&color=2BB3BA&style=for-the-badge" alt="Profil Ziyaretçisi" />
   <br/><br/>
