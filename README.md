@@ -1,6 +1,6 @@
 <img src="https://raw.githubusercontent.com/EmrhnHARPUT/EmrhnHARPUT/main/assets/banner.webp?v=5" width="100%" alt=""/>
 
-<img src="https://raw.githubusercontent.com/EmrhnHARPUT/EmrhnHARPUT/main/assets/typing_vol2.svg?v=6" alt="Emirhan HARPUT"/>
+<img src="https://raw.githubusercontent.com/EmrhnHARPUT/EmrhnHARPUT/main/assets/typing_vol2.svg?v=7" alt="Emirhan HARPUT"/>
 
 ---
 
