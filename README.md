@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/EmrhnHARPUT/EmrhnHARPUT/main/assets/banner.webp?v=6" width="100%" alt=""/>
+<img src="https://raw.githubusercontent.com/EmrhnHARPUT/EmrhnHARPUT/main/assets/banner.webp?v=9" width="100%" alt=""/>
 
 <img src="https://raw.githubusercontent.com/EmrhnHARPUT/EmrhnHARPUT/main/assets/typing_vol2.svg?v=7" alt="Emirhan HARPUT"/>
 
