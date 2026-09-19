@@ -7,9 +7,9 @@
 ## Hakkımda
 
 * **Trabzon Üniversitesi Yapay Zeka Mühendisliği** öğrencisiyim.
-* Yapay zekanın tüm alt dallarına ilgi duymakla birlikte, asıl odağımı **askeri sistemler** üzerine yoğunlaştırıyorum.
+* Yapay zekanın tüm alt dallarına ilgi duymakla birlikte, asıl odağımı **askeri sistemlerde yapay zeka** üzerine yoğunlaştırıyorum.
 * Yazılım dünyasındaki teorik bilgilerimi pratikle birleştirmek adına, **İMEJE HARP Takımı**'nda aktif olarak rol alıyorum.
-* Otonom Sistemler ve İstihbarat biriminin yürütücüsü olarak görev alırken, bu birime bağlı EH Taarruz ve Güvenlik Ekibi'nin liderliğini de üstleniyor; ekibimle birlikte taarruz sistemleri ve güvenlik katmanları      üzerinde çalışıyorum.
+* Otonom Sistemler ve İstihbarat biriminin yürütücüsü olarak görev alırken, bu birime bağlı EH Taarruz ve Güvenlik Ekibi'nin liderliğini de üstleniyor; ekibimle birlikte taarruz sistemleri ve güvenlik katmanları üzerinde çalışıyorum.
 * Gelecek vizyonumu, özellikle **askeri teknolojiler ve savunma sanayii** için otomasyon sistemler ve yapay zeka modelleri tasarlamak üzerine kuruyorum.
 
 ---
