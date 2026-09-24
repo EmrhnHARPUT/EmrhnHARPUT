@@ -14,7 +14,7 @@
 
 ---
 
-## Kullandığım Teknolojiler
+## Teknolojiler
 
 <p align="center">
 <img src="https://skillicons.dev/icons?i=python,html,nodejs,mysql" />
